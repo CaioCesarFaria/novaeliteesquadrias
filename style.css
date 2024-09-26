@@ -21,7 +21,7 @@ body {
 
 @media screen and (max-width: 490px) {
     body {
-        overflow-y: hidden;
+        overflow-x: hidden;
     }
 
     /* ------------------ HEADER -------------- */
@@ -313,7 +313,7 @@ body {
 @media only screen and (min-width: 491px) and (max-width: 768px) {
     /* ------------------ HEADER -------------- */
     body {
-        overflow-y: hidden;
+        overflow-x: hidden;
     }
     .container_header {
         display: flex;
@@ -639,7 +639,9 @@ body {
 /* TODO ================================================================= */
 
 @media only screen and (min-width: 769px) and (max-width: 1023px) {
-
+    body {
+        overflow-x: hidden;
+    }
     /* ------------------ HEADER -------------- */
     .container_header {
         display: flex;
@@ -925,6 +927,9 @@ body {
 /* TODO ================================================================= */
 @media only screen and (min-width: 1024px) and (max-width: 1200px) {
     /* ------------------ HEADER -------------- */
+    body {
+        overflow-x: hidden;
+    }
     .container_header {
         display: flex;
         flex-direction: column;
