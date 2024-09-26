@@ -515,6 +515,7 @@ body {
         margin: 0 auto; /* Centraliza o carrossel */
         display: flex;
         justify-content: center;
+        overflow-x: hidden;
         
     }
     .carrossel_produtos_title {
@@ -841,6 +842,7 @@ body {
         margin: 0 auto; /* Centraliza o carrossel */
         display: flex;
         justify-content: center;
+        overflow-x: hidden;
         
     }
     .carrossel_produtos_title {
@@ -1128,6 +1130,7 @@ body {
         margin: 0 auto; /* Centraliza o carrossel */
         display: flex;
         justify-content: center;
+        overflow-x: hidden;
         
     }
     .carrossel_produtos_title {
@@ -1445,6 +1448,7 @@ body {
         margin: 0 auto; /* Centraliza o carrossel */
         display: flex;
         justify-content: center;
+        overflow-x: hidden;
         
     }
     .carrossel_produtos_title {
