@@ -210,6 +210,99 @@ body {
     .menu_desktop{
         display: none;
     }
+
+
+    /* ===========================  carrossel de apresentação de produtos com legenda */
+
+    .container_carrossel_produtos {
+        flex-direction: column;
+        width: 100vw; /* 90% da largura da tela */
+        margin: 0 auto; /* Centraliza o carrossel */
+        display: flex;
+        justify-content: center;
+        
+    }
+    .carrossel_produtos_title {
+        font-family: var(--fonte-principal);
+        color: var(--azul-principal);
+        font-size: 24px;
+        text-align: center;
+        padding: 1rem 1.5rem;
+        font-weight: 400;
+    }
+    
+    .swiper2 {
+        margin-top: 2rem;
+        width: 100%; /* O carrossel vai ocupar todo o espaço do container */
+        height: auto;
+    }
+    
+    .swiper-slide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .swiper-slide img {
+        width: 100%; /* Para garantir que a imagem ocupe toda a largura do slide */
+        height: auto;
+        object-fit: contain; /* Mantém a proporção da imagem */
+    }
+    
+    .swiper2-legend {
+        text-align: center;
+        font-size: 18px;
+        color: var(--azul-principal);
+        font-family: var(--fonte-principal);
+        margin-top: 10px; /* Espaçamento entre a imagem e a legenda */
+    }
+    .swiper2-pagination{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    /* ==================================== CONTAINER ÚLTIMAS OBRAS ====================== */
+    .container_ultimasobras {
+        display: flex;
+        flex-direction: column;
+        background-image: url(./assets/background/bg_ultimasobras.png);
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+    .logo_obras {
+        width: 50px;
+        padding-top: 3rem;
+    }
+    .ultimasobras_title {
+        font-family: var(--fonte-principal);
+        font-size: 22px;
+        color: var(--branco-fundo);
+        font-weight: 500;
+    }
+    .obras_local {
+        text-transform: uppercase;
+        font-family: var(--fonte-principal);
+        color: var(--branco-fundo);
+        text-decoration: underline;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .obras_imagens {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        row-gap: 1rem;
+    }
+    .obras_imagens img{
+        width: 80vw;
+        border: 2px solid var(--branco-fundo);
+    }
 }
 
 /* TODO ======== MOBILE / 491 PX  ATÉ 768PX ============================== */
@@ -407,6 +500,134 @@ body {
     .menu_desktop{
         display: none;
     }
+
+    /* ===========================  carrossel de apresentação de produtos com legenda */
+
+    .container_carrossel_produtos {
+        flex-direction: column;
+        width: 100vw; /* 90% da largura da tela */
+        margin: 0 auto; /* Centraliza o carrossel */
+        display: flex;
+        justify-content: center;
+        
+    }
+    .carrossel_produtos_title {
+        font-family: var(--fonte-principal);
+        color: var(--azul-principal);
+        font-size: 24px;
+        text-align: center;
+        padding: 1rem 1.5rem;
+        font-weight: 400;
+    }
+    
+    .swiper2 {
+        margin-top: 2rem;
+        width: 100%; /* O carrossel vai ocupar todo o espaço do container */
+        height: auto;
+    }
+    
+    .swiper-slide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .swiper-slide img {
+        width: 100%; /* Para garantir que a imagem ocupe toda a largura do slide */
+        height: auto;
+        object-fit: contain; /* Mantém a proporção da imagem */
+    }
+    
+    .swiper2-legend {
+        text-align: center;
+        font-size: 18px;
+        color: var(--azul-principal);
+        font-family: var(--fonte-principal);
+        margin-top: 10px; /* Espaçamento entre a imagem e a legenda */
+    }
+    .swiper2-pagination{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* ==================================== CONTAINER ÚLTIMAS OBRAS ====================== */
+    .container_ultimasobras {
+        display: flex;
+        flex-direction: column;
+        background-image: url(./assets/background/bg_ultimasobras.png);
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+    .logo_obras {
+        width: 50px;
+        padding-top: 3rem;
+    }
+    .ultimasobras_title {
+        font-family: var(--fonte-principal);
+        font-size: 22px;
+        color: var(--branco-fundo);
+        font-weight: 500;
+    }
+    .obras_local {
+        text-transform: uppercase;
+        font-family: var(--fonte-principal);
+        color: var(--branco-fundo);
+        text-decoration: underline;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .obras_imagens {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        row-gap: 1rem;
+    }
+    .obras_imagens img{
+        width: 80vw;
+        border: 2px solid var(--branco-fundo);
+    }/* ==================================== CONTAINER ÚLTIMAS OBRAS ====================== */
+    .container_ultimasobras {
+        display: flex;
+        flex-direction: column;
+        background-image: url(./assets/background/bg_ultimasobras.png);
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+    .logo_obras {
+        width: 50px;
+        padding-top: 3rem;
+    }
+    .ultimasobras_title {
+        font-family: var(--fonte-principal);
+        font-size: 22px;
+        color: var(--branco-fundo);
+        font-weight: 500;
+    }
+    .obras_local {
+        text-transform: uppercase;
+        font-family: var(--fonte-principal);
+        color: var(--branco-fundo);
+        text-decoration: underline;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .obras_imagens {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        row-gap: 1rem;
+    }
+    .obras_imagens img{
+        width: 80vw;
+        border: 2px solid var(--branco-fundo);
+    }
 }
 
 /* TODO ======== TABLET / 769 PX  ATÉ 1023PX ============================= */
@@ -603,6 +824,96 @@ body {
     .menu_desktop{
         display: none;
     }
+
+    /* ===========================  carrossel de apresentação de produtos com legenda */
+
+    .container_carrossel_produtos {
+        flex-direction: column;
+        width: 100vw; /* 90% da largura da tela */
+        margin: 0 auto; /* Centraliza o carrossel */
+        display: flex;
+        justify-content: center;
+        
+    }
+    .carrossel_produtos_title {
+        font-family: var(--fonte-principal);
+        color: var(--azul-principal);
+        font-size: 24px;
+        text-align: center;
+        padding: 1rem 1.5rem;
+        font-weight: 400;
+    }
+    
+    .swiper2 {
+        margin-top: 2rem;
+        width: 100%; /* O carrossel vai ocupar todo o espaço do container */
+        height: auto;
+    }
+    
+    .swiper-slide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .swiper-slide img {
+        width: 100%; /* Para garantir que a imagem ocupe toda a largura do slide */
+        height: auto;
+        object-fit: contain; /* Mantém a proporção da imagem */
+    }
+    
+    .swiper2-legend {
+        text-align: center;
+        font-size: 18px;
+        color: var(--azul-principal);
+        font-family: var(--fonte-principal);
+        margin-top: 10px; /* Espaçamento entre a imagem e a legenda */
+    }
+    .swiper2-pagination{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* ==================================== CONTAINER ÚLTIMAS OBRAS ====================== */
+    .container_ultimasobras {
+        display: flex;
+        flex-direction: column;
+        background-image: url(./assets/background/bg_ultimasobras.png);
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+    .logo_obras {
+        width: 50px;
+        padding-top: 3rem;
+    }
+    .ultimasobras_title {
+        font-family: var(--fonte-principal);
+        font-size: 22px;
+        color: var(--branco-fundo);
+        font-weight: 500;
+    }
+    .obras_local {
+        text-transform: uppercase;
+        font-family: var(--fonte-principal);
+        color: var(--branco-fundo);
+        text-decoration: underline;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .obras_imagens {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        row-gap: 1rem;
+    }
+    .obras_imagens img{
+        width: 80vw;
+        border: 2px solid var(--branco-fundo);
+    }
 }
 
 /* TODO ======== NOTEBOOK / 1024 PX  ATÉ 1200PX ============================ */
@@ -797,6 +1108,97 @@ body {
     .menu_desktop{
         display: none;
     }
+
+    /* ===========================  carrossel de apresentação de produtos com legenda */
+
+    .container_carrossel_produtos {
+        flex-direction: column;
+        width: 100vw; /* 90% da largura da tela */
+        margin: 0 auto; /* Centraliza o carrossel */
+        display: flex;
+        justify-content: center;
+        
+    }
+    .carrossel_produtos_title {
+        font-family: var(--fonte-principal);
+        color: var(--azul-principal);
+        font-size: 28px;
+        text-align: center;
+        padding: 2rem 8rem;
+        font-weight: 400;
+    }
+    
+    .swiper2 {
+        margin-top: 2rem;
+        width: 100%; /* O carrossel vai ocupar todo o espaço do container */
+        height: auto;
+    }
+    
+    .swiper-slide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .swiper-slide img {
+        width: 100%; /* Para garantir que a imagem ocupe toda a largura do slide */
+        height: auto;
+        object-fit: contain; /* Mantém a proporção da imagem */
+    }
+    
+    .swiper2-legend {
+        text-align: center;
+        font-size: 24px;
+        color: var(--azul-principal);
+        font-family: var(--fonte-principal);
+        margin-top: 10px; /* Espaçamento entre a imagem e a legenda */
+    }
+    .swiper2-pagination{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    /* ==================================== CONTAINER ÚLTIMAS OBRAS ====================== */
+    .container_ultimasobras {
+        display: flex;
+        flex-direction: column;
+        background-image: url(./assets/background/bg_ultimasobras.png);
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+    .logo_obras {
+        width: 50px;
+        padding-top: 3rem;
+    }
+    .ultimasobras_title {
+        font-family: var(--fonte-principal);
+        font-size: 22px;
+        color: var(--branco-fundo);
+        font-weight: 500;
+    }
+    .obras_local {
+        text-transform: uppercase;
+        font-family: var(--fonte-principal);
+        color: var(--branco-fundo);
+        text-decoration: underline;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .obras_imagens {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        row-gap: 3rem;
+    }
+    .obras_imagens img{
+        width: 50vw;
+        border: 2px solid var(--branco-fundo);
+    }
 }
 
 
@@ -989,14 +1391,14 @@ body {
     .quemsomos_title {
         font-family: var(--fonte-principal);
         color: var(--branco-fundo);
-        font-size: 32px;
+        font-size: 36px;
         padding-top: 1rem;
     }
 
     .quemsomos_txt {
         font-family: var(--fonte-principal);
         color: var(--branco-fundo);
-        font-size: 20px;
+        font-size: 26px;
         text-align: left;
         width: 80vw;
         font-weight: 300;
@@ -1011,6 +1413,11 @@ body {
         margin-bottom: 2rem;
         margin-top: 2rem;
         font-family: var(--fonte-principal);
+        font-size: 24px;
+    }
+    .btn_quemsomos:hover {
+        cursor: grab;
+        scale: 1.1;
     }
 
     /* ITENS OCULTOS */
@@ -1018,5 +1425,100 @@ body {
         display: none;
     }
 
+
+    /* ===========================  carrossel de apresentação de produtos com legenda */
+
+    .container_carrossel_produtos {
+        flex-direction: column;
+        width: 100vw; /* 90% da largura da tela */
+        margin: 0 auto; /* Centraliza o carrossel */
+        display: flex;
+        justify-content: center;
+        
+    }
+    .carrossel_produtos_title {
+        font-family: var(--fonte-principal);
+        color: var(--azul-principal);
+        font-size: 32px;
+        text-align: center;
+        padding: 3rem 10vw;
+        font-weight: 400;
+    }
+    
+    .swiper2 {
+        margin: 0 auto;
+        width: 50%; /* O carrossel vai ocupar todo o espaço do container */
+        height: auto;
+        
+    }
+    
+    .swiper-slide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .swiper-slide img {
+        width: 100%; /* Para garantir que a imagem ocupe toda a largura do slide */
+        height: auto;
+        object-fit: contain; /* Mantém a proporção da imagem */
+    }
+    
+    .swiper2-legend {
+        text-align: center;
+        font-size: 26px;
+        color: var(--azul-principal);
+        font-family: var(--fonte-principal);
+        margin-top: 10px; /* Espaçamento entre a imagem e a legenda */
+    }
+    .swiper2-pagination{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    /* ==================================== CONTAINER ÚLTIMAS OBRAS ====================== */
+    .container_ultimasobras {
+        display: flex;
+        flex-direction: column;
+        background-image: url(./assets/background/bg_ultimasobras.png);
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+    .logo_obras {
+        width: 100px;
+        padding-top: 3rem;
+    }
+    .ultimasobras_title {
+        font-family: var(--fonte-principal);
+        font-size: 32px;
+        color: var(--branco-fundo);
+        font-weight: 500;
+    }
+    .obras_local {
+        text-transform: uppercase;
+        font-family: var(--fonte-principal);
+        color: var(--branco-fundo);
+        text-decoration: underline;
+        font-size: 24px;
+        font-weight: 300;
+    }
+    .obras_imagens {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+        align-items: center;
+        column-gap: 5rem;
+        justify-content: center;
+        row-gap: 5rem;
+    }
+    .obras_imagens img{
+        width: 30vw;
+        border: 2px solid var(--branco-fundo);
+    }
     
 }
