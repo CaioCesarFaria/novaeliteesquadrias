@@ -20,7 +20,9 @@ body {
 /* TODO ================================================================= */
 
 @media screen and (max-width: 490px) {
-
+    body {
+        overflow-y: hidden;
+    }
 
     /* ------------------ HEADER -------------- */
     .container_header {
@@ -310,6 +312,9 @@ body {
 
 @media only screen and (min-width: 491px) and (max-width: 768px) {
     /* ------------------ HEADER -------------- */
+    body {
+        overflow-y: hidden;
+    }
     .container_header {
         display: flex;
         flex-direction: column;
