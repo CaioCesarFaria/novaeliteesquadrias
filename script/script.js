@@ -36,8 +36,10 @@ const swiper = new Swiper('.swiper', {
 
 const swiper2 = new Swiper('.swiper2', {
     slidesPerView: 1,
+    
     direction: 'horizontal', // Diferente do primeiro, por exemplo
     loop: true, // Sem loop
+    
     autoplay: {
         delay: 3000, // 3000 ms = 3 seconds
         disableOnInteraction: false, // Keeps autoplay even after user interaction
@@ -75,18 +77,46 @@ const products = {
             { icon: '/assets/droplist/icon_piv_3.png', text: 'Funcionalidade' }
         ]
     },
-    pivotantes: {
+    janelasPortasDeCorrer: {
         images: [
-            '/assets/droplist/pivotante_1.png',
-            '/assets/droplist/pivotante_2.png',
-            '/assets/droplist/pivotante_3.png',
-            '/assets/droplist/pivotante_4.png'
+            '/assets/droplist/correr_1.png',
+            '/assets/droplist/correr_2.png',
+            '/assets/droplist/correr_3.png',
+            '/assets/droplist/correr_4.png'
         ],
-        description: 'As portas pivotantes são ideais para entradas principais, oferecendo um design elegante e imponente. Com um eixo vertical de rotação, permitem uma abertura ampla e marcante, combinando estética moderna com robustez. Fabricadas em alumínio, garantem durabilidade e leveza.',
+        description: 'Portas e janelas de correr são práticas para otimizar espaços. Suas folhas deslizantes garantem abertura sem ocupar área útil, oferecendo ampla entrada de luz. Esquadrias de alumínio proporcionam resistência e leveza.',
         features: [
-            { icon: '/assets/droplist/icon_piv_1.png', text: 'Sofisticação' },
-            { icon: '/assets/droplist/icon_piv_2.png', text: 'Abertura Suave' },
-            { icon: '/assets/droplist/icon_piv_3.png', text: 'Funcionalidade' }
+            { icon: '/assets/droplist/icon_correr_1.png', text: 'Otimização de espaço' },
+            { icon: '/assets/droplist/icon_correr_2.png', text: 'Praticidade' },
+            { icon: '/assets/droplist/icon_correr_3.png', text: 'Versatilidade' }
+        ]
+    },
+    maximAr: {
+        images: [
+            '/assets/droplist/maximAr_1.png',
+            '/assets/droplist/maximAr_2.png',
+            '/assets/droplist/maximAr_3.png',
+            '/assets/droplist/maximAr_4.png'
+        ],
+        description: 'As janelas Maxim-ar oferecem ventilação eficiente com abertura parcial. Quando combinadas a um painel fixo, proporcionam um visual contínuo, alinhando-se discretamente quando fechadas. São ideais para garantir a aeração sem comprometer o design da fachada.',
+        features: [
+            { icon: '/assets/droplist/icon_maxim_1.png', text: 'Otimização de espaço' },
+            { icon: '/assets/droplist/icon_maxim_2.png', text: 'Praticidade' },
+            { icon: '/assets/droplist/icon_maxim_3.png', text: 'Versatilidade' }
+        ]
+    },
+    fachadasPeleDeVidro: {
+        images: [
+            '/assets/droplist/fachadas_1.png',
+            '/assets/droplist/fachadas_2.png',
+            '/assets/droplist/fachadas_3.png',
+            '/assets/droplist/fachadas_4.png'
+        ],
+        description: 'As fachadas pele de vidro são conhecidas por seu design moderno e elegante, com grandes superfícies envidraçadas que proporcionam ampla entrada de luz natural. Uma das principais características é o fato de os perfis de alumínio ficarem ocultos, resultando em um visual limpo e sofisticado. Além de sua estética, essa solução garante excelente isolamento acústico e térmico.',
+        features: [
+            { icon: '/assets/droplist/icon_fachadas_1.png', text: 'luminosidade' },
+            { icon: '/assets/droplist/icon_fachadas_2.png', text: 'Design Moderno' },
+            { icon: '/assets/droplist/icon_fachadas_3.png', text: 'Elegância' }
         ]
     }
     // Adicione mais produtos conforme necessário
@@ -131,6 +161,7 @@ function showProduct() {
     // Inicializando ou reinicializando o novo Swiper com nome específico
     new Swiper('.product-swiper-container', {
         slidesPerView: 1,
+        effect: "fade",
         direction: 'horizontal', // Diferente do primeiro, por exemplo
         loop: true, // Sem loop
         autoplay: {
