@@ -503,7 +503,7 @@ body {
     .description {
         width: 50%;
         padding-left: 10px;
-        text-align: justify;
+        text-align: left;
         /* Alinhamento à esquerda */
         font-size: 10px;
         /* Tamanho da fonte ajustado para a tela pequena */
