@@ -167,9 +167,14 @@ body {
         align-items: center;
         row-gap: 1rem;
     }
+    .apresentacao_inicio_box{
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+    }
 
     .imagens_apresentacao_inicio img {
-        width: 75vw;
+        width: 60vw;
     }
 
     /* Container quem somos */
@@ -2070,7 +2075,7 @@ body {
     }
     .apresentacao_inicio_box{
         display: flex;
-        column-gap: 1rem;
+        column-gap: 2rem;
     }
     .imagens_apresentacao_inicio img {
         width: 30vw;
