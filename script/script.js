@@ -52,7 +52,7 @@ const swiper2 = new Swiper('.swiper2', {
     breakpoints: {
         1201: {
             slidesPerView: 1, // 1 slide por vez em telas maiores
-            spaceBetween: 400, // Adiciona um espaçamento entre slides se quiser
+            spaceBetween: 100, // Adiciona um espaçamento entre slides se quiser
         }
     }
 });
