@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONTES UTILIZADAS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Swiper  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Folha de estilos e script -->
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script/script.js"></script>
+    <!-- META TAG OG -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Nova Elite Esquadrias" />
+    <meta property="og:image" content="https://i.pinimg.com/originals/5a/dd/c3/5addc3f2430381cdc504b7228f4a6253.png" />
+    <meta property="og:description" content="Excelência e qualidade em Esquadrias de Alumínio" />
+    <meta property="og:site_name" content="https://novaeliteesquadrias.com.br/" />
+    <title>Nova Elite Esquadrias</title>
+</head>
+
+<body>
+
+
+    <!-- #############   HEADER ################# -->
+    <section class="container_header">
+        <div class="header_topo">
+        </div>
+        <div class="header_menu">
+            <div class="header_logo">
+                <img src="./assets/logo_horizontal.svg" alt="Logo da Nova Elite Esquadrias em Alumínio">
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <span class="menu-icon"></span>
+            </button>
+            <nav class="menu" id="menu">
+                <ul>
+                    <li><a href="/index.html">Inicio</a></li>
+                    <li><a href="/produtos.html">Produtos</a></li>
+                    <li><a href="/portfolio.html">Portfólio</a></li>
+
+                </ul>
+            </nav>
+            <nav class="menu_desktop">
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/vidros.html">Produtos</a></li>
+                <li><a href="/esquadrias.html">Portfólio</a></li>
+            </nav>
+        </div>
+
+        <div class="container_carrossel_inicio">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+
+                    <img class="swiper-slide" src="./assets/carrossel/carrossel_produtos_header_1.png">
+                    <img class="swiper-slide" src="./assets/carrossel/carrossel_inicio_2.png" alt="Edifício Comercial">
+                    <img class="swiper-slide" src="./assets/carrossel/carrossel_inicio_3.png">
+
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Área de legenda -->
+
+            </div>
+        </div>
+    </section>
+    <section class="container_produtos_lista">
+
+        <!--  DROPLIST E CARROSSEL PRODUTOS -->
+        <!--  DROPLIST E CARROSSEL PRODUTOS -->
+        <div class="dropdown">
+            <select id="productSelect" onchange="showProduct()">
+                <option value="">Selecione um produto</option>
+                <option value="pivotantes">PORTAS PIVOTANTES</option>
+                <option value="pivotantes">PERSIANAS INTEGRADAS</option>
+                <option value="pivotantes">JANELAS E PORTAS DE CORRER</option>
+                <option value="pivotantes">MAXIM-AR E BASCULANTES</option>
+                <option value="pivotantes">FIXOS</option>
+                <option value="pivotantes">FACHADAS / PELE DE VIDRO</option>
+                <option value="pivotantes">GUARDA-CORPO</option>
+                <!-- Adicione mais produtos conforme necessário -->
+            </select>
+        </div>
+        <!-- Carrossel e Texto -->
+        <div id="productContent" style="display: none;">
+            <div class="product-details">
+                <div class="swiper-container product-swiper-container"> <!-- Classe específica para o novo Swiper -->
+                    <div class="swiper-wrapper" id="productSwiperWrapper">
+                        
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination product-swiper-pagination"></div>
+                    <!-- Add Navigation -->
+                    <div class="swiper-button-next product-swiper-next"></div>
+                    <div class="swiper-button-prev product-swiper-prev"></div>
+                </div>
+
+                <!-- Texto descritivo -->
+                <div id="description" class="description"></div>
+            </div>
+
+            <!-- Características -->
+            <div class="features">
+                <div id="feature1" class="feature-item">
+                    <img id="icon1" src="" alt="Ícone 1">
+                    <p id="featureText1"></p>
+                </div>
+                <div id="feature2" class="feature-item">
+                    <img id="icon2" src="" alt="Ícone 2">
+                    <p id="featureText2"></p>
+                </div>
+                <div id="feature3" class="feature-item">
+                    <img id="icon3" src="" alt="Ícone 3">
+                    <p id="featureText3"></p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="container_footer">
+        <div class="footer_col_1">
+            <img src="./assets/logo_vertical.png" alt="Lofo da Nova Elite esquadrias" class="logo_footer">
+            <div class="footer_telefone">
+                <img src="./assets/icon_telefone.png">
+                <p>(99) 99999-9999</p>
+            </div>
+        </div>
+        <div class="footer_col_2">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3828.7710599808765!2d-48.95188872537622!3d-16.334638036488872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ea58c908e73a5%3A0x671d7b02107ddc65!2sElite%20Esquadrias%20de%20Aluminio!5e0!3m2!1spt-BR!2sbr!4v1727566453556!5m2!1spt-BR!2sbr"
+                width="300" height="170" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <div class="footer_botoes">
+                <a href="https://wa.me/5562994577100" target="_blank" class="btn_zap">
+                    <img src="./assets/icon_email.png">
+                </a>
+                <a href="https://wa.me/5562994577100" target="_blank" class="btn_zap">
+                    <img src="./assets/icon_telefone.png">
+                </a>
+                <a href="https://wa.me/5562994577100" target="_blank" class="btn_zap">
+                    <img src="./assets/icon_insta.png">
+                </a>
+            </div>
+        </div>
+
+    </section>
+    <div class="copyright">
+        <p>Criado por GAIA Desenvolvimento Web e Design</p>
+    </div>
+    <script defer src="./script/script.js"></script>
+</body>
+
+</html>
