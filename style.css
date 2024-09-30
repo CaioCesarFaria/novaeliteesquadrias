@@ -982,6 +982,116 @@ body {
         align-items: center;
         padding-bottom: 3rem;
     }
+
+    /* ========================= DROPLIST E CARROSSEL DOS PRODUTOS */
+    /* styles.css */
+
+    .container_produtos_lista {
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .dropdown {
+        margin-bottom: 20px;
+        margin-top: 2rem;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+
+
+
+    }
+
+    .dropdown select {
+        width: 95vw;
+        background-color: var(--azul-principal);
+        border-color: var(--azul-principal);
+        
+        height: 40px;
+        margin: 0 auto;
+        color: var(--branco-fundo);
+        font-family: var(--fonte-principal);
+
+
+    }
+
+    .dropdown select option {
+        color: var(--branco-fundo);
+        font-size: 18px;
+        text-transform: uppercase;
+        
+        
+        
+
+    }
+
+    .product-details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        /* Mantém o carrossel e o texto lado a lado */
+        width: 100%;
+    }
+
+    .product-swiper-container {
+        width: 45%;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    .product-swiper-pagination {
+        bottom: 10px;
+        
+    }
+
+    .product-swiper-next,
+    .product-swiper-prev {
+        color: #000;
+        /* Ou qualquer outra cor desejada */
+    }
+
+    .description {
+        width: 45%;
+        padding-left: 10px;
+        text-align: justify;
+        /* Alinhamento à esquerda */
+        font-size: 10px;
+        /* Tamanho da fonte ajustado para a tela pequena */
+        color: var(--azul-principal);
+        font-family: var(--fonte-principal);
+        padding-right: 1rem;
+    }
+
+    .features {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 20px;
+
+    }
+
+    .feature-item {
+        text-align: center;
+        color: var(--azul-principal);
+        text-transform: uppercase;
+        margin-top: 1.5rem;
+    }
+
+    .feature-item img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .feature-item p {
+        font-size: 10px;
+    }
+
+    #productSwiperWrapper {
+        width: 50vw;
+    }
 }
 
 /* TODO ======== TABLET / 769 PX  ATÉ 1023PX ============================= */
