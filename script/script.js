@@ -100,7 +100,7 @@ const products = {
         ],
         description: 'As janelas Maxim-ar oferecem ventilação eficiente com abertura parcial. Quando combinadas a um painel fixo, proporcionam um visual contínuo, alinhando-se discretamente quando fechadas. São ideais para garantir a aeração sem comprometer o design da fachada.',
         features: [
-            { icon: '/assets/droplist/icon_maxim_1.png', text: 'Otimização de espaço' },
+            { icon: '/assets/droplist/icon_maxim_1.png', text: 'Ventilação' },
             { icon: '/assets/droplist/icon_maxim_2.png', text: 'Praticidade' },
             { icon: '/assets/droplist/icon_maxim_3.png', text: 'Versatilidade' }
         ]

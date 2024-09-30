@@ -1064,7 +1064,7 @@ body {
         padding-left: 10px;
         text-align: justify;
         /* Alinhamento à esquerda */
-        font-size: 10px;
+        font-size: 12px;
         /* Tamanho da fonte ajustado para a tela pequena */
         color: var(--azul-principal);
         font-family: var(--fonte-principal);
