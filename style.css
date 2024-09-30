@@ -228,6 +228,7 @@ body {
         animation: pulsar 1.5s ease-in-out infinite;
         /* Duração de 1.5s, efeito contínuo */
         transition: transform 0.3s ease-in-out;
+        
     }
 
     /* ============================== ITENS OCULTOS */
@@ -2067,9 +2068,12 @@ body {
         align-items: center;
         row-gap: 1rem;
     }
-
+    .apresentacao_inicio_box{
+        display: flex;
+        column-gap: 1rem;
+    }
     .imagens_apresentacao_inicio img {
-        width: 75vw;
+        width: 30vw;
     }
 
     /* Container quem somos */
@@ -2130,6 +2134,7 @@ body {
         /* Duração de 1.5s, efeito contínuo */
         transition: transform 0.3s ease-in-out;
         cursor: grab;
+        text-decoration: none;
     }
 
 
