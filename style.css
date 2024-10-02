@@ -607,6 +607,9 @@ body {
 
         
     }
+    .title_carrossel {
+        font-family: var(--fonte-principal);
+    }
     
     
 
@@ -2546,7 +2549,7 @@ body {
     .container_footer {
         margin-top: 5rem;
         display: flex;
-
+        padding: 2rem 0;
         background-image: url(./assets/background/bg_footer.png);
         background-size: cover;
         width: 100%;

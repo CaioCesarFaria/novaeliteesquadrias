@@ -91,9 +91,9 @@ const products = {
             { icon: '/assets/droplist/icon_correr_3.png', text: 'Versatilidade' }
         ]
     },
-    janelasPortasDeCorrer: {
+    persianas: {
         images: [
-            '/assets/droplist/correr_1.png',
+            '/assets/droplist/persiana_1.png',
             '/assets/droplist/correr_2.png',
             '/assets/droplist/correr_3.png',
             '/assets/droplist/correr_4.png'
