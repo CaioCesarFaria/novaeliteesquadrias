@@ -8,6 +8,9 @@
     --fonte-principal: "Poppins", sans-serif;
     --azul-principal: #204473;
     --branco-fundo: #ffffff;
+
+
+
 }
 
 body {
@@ -16,7 +19,22 @@ body {
     overflow-x: hidden;
 }
 
+@keyframes pulsar {
+    0% {
+        transform: scale(1);
+        /* Tamanho normal */
+    }
 
+    50% {
+        transform: scale(1.1);
+        /* Aumenta em 10% */
+    }
+
+    100% {
+        transform: scale(1);
+        /* Volta ao tamanho normal */
+    }
+}
 /* TODO ================ MOBILE / 490 PX ================================ */
 /* TODO ================================================================= */
 
@@ -113,8 +131,9 @@ body {
         height: 50vh;
         display: none;
         flex-direction: column;
-
-        align-items: center;
+        background-image: url(./assets/background/bg_menuHamburguer.png);
+        background-repeat: no-repeat;
+        background-size: cover;
         justify-content: center;
         z-index: 1000;
     }
@@ -126,14 +145,24 @@ body {
         row-gap: 2rem;
         list-style: none;
         width: 100vw;
-
-
+        font-weight: 300;
+        padding: 0;
+        
+    }
+    .menu ul li {
+        border-bottom: 1px solid var(--branco-fundo);
+        width: 80vw;
+        text-align: center;
+        padding-bottom: 0.5rem;
     }
 
     .menu ul li a {
         color: var(--branco-fundo);
         text-decoration: none;
-        text-transform: uppercase;
+        font-family: var(--fonte-principal);
+        
+        font-size: 20px;
+        
     }
 
     .menu-toggle {
@@ -204,22 +233,7 @@ body {
         font-weight: 300;
     }
 
-    @keyframes pulsar {
-        0% {
-            transform: scale(1);
-            /* Tamanho normal */
-        }
-
-        50% {
-            transform: scale(1.1);
-            /* Aumenta em 10% */
-        }
-
-        100% {
-            transform: scale(1);
-            /* Volta ao tamanho normal */
-        }
-    }
+    
 
     .btn_quemsomos {
         border: 4px solid rgba(82, 193, 232, 0.32);
@@ -233,6 +247,7 @@ body {
         animation: pulsar 1.5s ease-in-out infinite;
         /* Duração de 1.5s, efeito contínuo */
         transition: transform 0.3s ease-in-out;
+        text-decoration: none;
         
     }
 
@@ -547,6 +562,54 @@ body {
         width: 50vw;
     }
 
+
+    /* ==================  PAGE PRODUTOS / CONTAINER SOLUCOES */
+    .container_solucoes {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: var(--azul-principal);
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+        font-family: var(--fonte-principal);
+        
+
+    }
+    
+    .solucoes_box {
+        width: 80vw;
+        padding: 2rem 0;
+    }
+    .solucoes_title{
+        color: #46DFDB;
+        font-size: 16px;
+    }
+    .solucoes_txt{
+        color: var(--branco-fundo);
+        font-size: 12px;
+        padding-bottom: 1rem;
+
+    }
+    .btn_solucoes {
+        border: 4px solid rgba(82, 193, 232, 0.32);
+        background: rgba(18, 156, 204, 0.56);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        color: var(--branco-fundo);
+        padding: 0.2rem 1.2rem;
+        margin-bottom: 2rem;
+        margin-top: 4rem;
+        font-family: var(--fonte-principal);
+        animation: pulsar 1.5s ease-in-out infinite;
+        /* Duração de 1.5s, efeito contínuo */
+        transition: transform 0.3s ease-in-out;
+        text-decoration: none;
+
+        
+    }
+    
+    
+
 }
 
 /* TODO ======== MOBILE / 491 PX  ATÉ 768PX ============================== */
@@ -592,7 +655,7 @@ body {
         z-index: 1001;
         /* Para ficar acima do menu */
     }
-
+    
     .menu-icon {
         width: 25px;
         height: 3px;
@@ -646,8 +709,9 @@ body {
         height: 50vh;
         display: none;
         flex-direction: column;
-
-        align-items: center;
+        background-image: url(./assets/background/bg_menuHamburguer.png);
+        background-repeat: no-repeat;
+        background-size: cover;
         justify-content: center;
         z-index: 1000;
     }
@@ -659,14 +723,24 @@ body {
         row-gap: 2rem;
         list-style: none;
         width: 100vw;
-
-
+        font-weight: 300;
+        padding: 0;
+        
+    }
+    .menu ul li {
+        border-bottom: 1px solid var(--branco-fundo);
+        width: 80vw;
+        text-align: center;
+        padding-bottom: 0.5rem;
     }
 
     .menu ul li a {
         color: var(--branco-fundo);
         text-decoration: none;
-        text-transform: uppercase;
+        font-family: var(--fonte-principal);
+        
+        font-size: 20px;
+        
     }
 
     .menu-toggle {
@@ -1121,6 +1195,51 @@ body {
     #productSwiperWrapper {
         width: 50vw;
     }
+
+    /* ==================  PAGE PRODUTOS / CONTAINER SOLUCOES */
+    .container_solucoes {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: var(--azul-principal);
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+        font-family: var(--fonte-principal);
+        
+
+    }
+    
+    .solucoes_box {
+        width: 60vw;
+        padding: 2rem 0;
+    }
+    .solucoes_title{
+        color: #46DFDB;
+        font-size: 16px;
+    }
+    .solucoes_txt{
+        color: var(--branco-fundo);
+        font-size: 12px;
+        padding-bottom: 1rem;
+
+    }
+    .btn_solucoes {
+        border: 4px solid rgba(82, 193, 232, 0.32);
+        background: rgba(18, 156, 204, 0.56);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        color: var(--branco-fundo);
+        padding: 0.2rem 1.2rem;
+        margin-bottom: 2rem;
+        margin-top: 4rem;
+        font-family: var(--fonte-principal);
+        animation: pulsar 1.5s ease-in-out infinite;
+        /* Duração de 1.5s, efeito contínuo */
+        transition: transform 0.3s ease-in-out;
+        text-decoration: none;
+
+        
+    }
 }
 
 /* TODO ======== TABLET / 769 PX  ATÉ 1023PX ============================= */
@@ -1531,6 +1650,55 @@ body {
         color: var(--azul-principal);
         font-size: 12px;
         text-align: center;
+    }
+
+
+
+    /* ==================  PAGE PRODUTOS / CONTAINER SOLUCOES */
+    .container_solucoes {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: var(--azul-principal);
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+        font-family: var(--fonte-principal);
+        padding-bottom: 2rem;
+        
+
+    }
+    
+    .solucoes_box {
+        width: 60vw;
+        padding: 2rem 0;
+    }
+    .solucoes_title{
+        color: #46DFDB;
+        font-size: 22px;
+    }
+    .solucoes_txt{
+        color: var(--branco-fundo);
+        font-size: 16px;
+        padding-bottom: 1rem;
+
+    }
+    .btn_solucoes {
+        border: 4px solid rgba(82, 193, 232, 0.32);
+        background: rgba(18, 156, 204, 0.56);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        color: var(--branco-fundo);
+        padding: 0.2rem 1.2rem;
+        margin-bottom: 2rem;
+        margin-top: 4rem;
+        font-family: var(--fonte-principal);
+        animation: pulsar 1.5s ease-in-out infinite;
+        /* Duração de 1.5s, efeito contínuo */
+        transition: transform 0.3s ease-in-out;
+        text-decoration: none;
+        
+
+        
     }
 }
 
@@ -1950,6 +2118,56 @@ body {
         font-size: 12px;
         text-align: center;
     }
+
+    /* ==================  PAGE PRODUTOS / CONTAINER SOLUCOES */
+    .container_solucoes {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: var(--azul-principal);
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+        font-family: var(--fonte-principal);
+        padding-bottom: 2rem;
+        
+
+    }
+    
+    .solucoes_box {
+        width: 60vw;
+        padding: 2rem 0;
+    }
+    .solucoes_title{
+        color: #46DFDB;
+        font-size: 24px;
+    }
+    .solucoes_txt{
+        color: var(--branco-fundo);
+        font-size: 20px;
+        padding-bottom: 1rem;
+
+    }
+    .btn_solucoes {
+        border: 4px solid rgba(82, 193, 232, 0.32);
+        background: rgba(18, 156, 204, 0.56);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        color: var(--branco-fundo);
+        padding: 0.2rem 1.2rem;
+        margin-bottom: 2rem;
+        margin-top: 4rem;
+        font-family: var(--fonte-principal);
+        animation: pulsar 1.5s ease-in-out infinite;
+        /* Duração de 1.5s, efeito contínuo */
+        transition: transform 0.3s ease-in-out;
+        text-decoration: none;
+        font-size: 18px;
+        
+
+        
+    }
+
+    
 }
 
 
@@ -2402,6 +2620,56 @@ body {
         color: var(--azul-principal);
         font-size: 12px;
         text-align: center;
+    }
+
+
+    /* ==================  PAGE PRODUTOS / CONTAINER SOLUCOES */
+    .container_solucoes {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: var(--azul-principal);
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+        font-family: var(--fonte-principal);
+        padding: 2rem 0;
+
+    }
+    
+    .solucoes_box {
+        width: 80vw;
+        padding: 2rem 0;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .solucoes_title{
+        color: #46DFDB;
+        font-size: 46px;
+    }
+    .solucoes_txt{
+        color: var(--branco-fundo);
+        font-size: 32px;
+        padding-bottom: 1rem;
+
+    }
+    .btn_solucoes {
+        border: 4px solid rgba(82, 193, 232, 0.32);
+        background: rgba(18, 156, 204, 0.56);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        color: var(--branco-fundo);
+        padding: 0.2rem 1.2rem;
+        margin-bottom: 2rem;
+        margin-top: 4rem;
+        font-family: var(--fonte-principal);
+        animation: pulsar 1.5s ease-in-out infinite;
+        /* Duração de 1.5s, efeito contínuo */
+        transition: transform 0.3s ease-in-out;
+        text-decoration: none;
+        width: max-content;
+        text-align: center;
+        font-size: 24px;
     }
 
 }
