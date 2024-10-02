@@ -91,6 +91,20 @@ const products = {
             { icon: '/assets/droplist/icon_correr_3.png', text: 'Versatilidade' }
         ]
     },
+    janelasPortasDeCorrer: {
+        images: [
+            '/assets/droplist/correr_1.png',
+            '/assets/droplist/correr_2.png',
+            '/assets/droplist/correr_3.png',
+            '/assets/droplist/correr_4.png'
+        ],
+        description: 'Portas e janelas de correr são práticas para otimizar espaços. Suas folhas deslizantes garantem abertura sem ocupar área útil, oferecendo ampla entrada de luz. Esquadrias de alumínio proporcionam resistência e leveza.',
+        features: [
+            { icon: '/assets/droplist/icon_correr_1.png', text: 'Otimização de espaço' },
+            { icon: '/assets/droplist/icon_correr_2.png', text: 'Praticidade' },
+            { icon: '/assets/droplist/icon_correr_3.png', text: 'Versatilidade' }
+        ]
+    },
     maximAr: {
         images: [
             '/assets/droplist/maximAr_1.png',
