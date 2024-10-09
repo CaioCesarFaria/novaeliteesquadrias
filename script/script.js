@@ -94,15 +94,15 @@ const products = {
     persianas: {
         images: [
             '/assets/droplist/persiana_1.png',
-            '/assets/droplist/correr_2.png',
-            '/assets/droplist/correr_3.png',
-            '/assets/droplist/correr_4.png'
+            '/assets/droplist/persiana_2.png',
+            '/assets/droplist/persiana_3.png',
+            
         ],
         description: 'Portas e janelas de correr são práticas para otimizar espaços. Suas folhas deslizantes garantem abertura sem ocupar área útil, oferecendo ampla entrada de luz. Esquadrias de alumínio proporcionam resistência e leveza.',
         features: [
-            { icon: '/assets/droplist/icon_correr_1.png', text: 'Otimização de espaço' },
-            { icon: '/assets/droplist/icon_correr_2.png', text: 'Praticidade' },
-            { icon: '/assets/droplist/icon_correr_3.png', text: 'Versatilidade' }
+            { icon: '/assets/droplist/icon_persiana_1.png', text: 'Controle de Luz' },
+            { icon: '/assets/droplist/icon_persiana_2.png', text: 'Privacidade' },
+            { icon: '/assets/droplist/icon_persiana_3.png', text: 'Inovação' }
         ]
     },
     maximAr: {
