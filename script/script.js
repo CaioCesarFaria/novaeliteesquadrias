@@ -64,6 +64,7 @@ const swiper2 = new Swiper('.swiper2', {
 
 const products = {
     pivotantes: {
+        
         images: [
             '/assets/droplist/pivotante_1.png',
             '/assets/droplist/pivotante_2.png',
@@ -78,6 +79,7 @@ const products = {
         ]
     },
     janelasPortasDeCorrer: {
+        
         images: [
             '/assets/droplist/correr_1.png',
             '/assets/droplist/correr_2.png',
@@ -136,61 +138,103 @@ const products = {
     // Adicione mais produtos conforme necessário
 };
 
-function showProduct() {
-    const selectedProduct = document.getElementById('productSelect').value;
-
-    if (!selectedProduct) {
-        document.getElementById('productContent').style.display = 'none';
-        return;
-    }
-
-    const product = products[selectedProduct];
-
-    // Atualizando as imagens do carrossel
-    const swiperWrapper = document.getElementById('productSwiperWrapper');
-    swiperWrapper.innerHTML = '';
-
-    product.images.forEach(image => {
-        const slide = document.createElement('div');
-        slide.className = 'swiper-slide';
-        slide.innerHTML = `<img src="${image}" alt="Product Image">`;
-        swiperWrapper.appendChild(slide);
+function createProductHTML(productKey, productData) {
+    let swiperSlides = '';
+    productData.images.forEach(image => {
+        swiperSlides += `<div class="swiper-slide unique-swiper-slide"><img src="${image}" alt="${productData.title}"></div>`;
     });
 
-    // Atualizando a descrição
-    document.getElementById('description').innerText = product.description;
+    return `
+        <div class="unique-product">
+            <div class="unique-content-row">
+                <div class="unique-swiper-container">
+                    <div class="swiper-wrapper">
+                        ${swiperSlides}
+                    </div>
+                    <div class="swiper-pagination unique-swiper-pagination-${productKey}"></div>
+                </div>
+                <div class="unique-description">
+                    <p>${productData.description}</p>
+                </div>
+            </div>
+            <div class="unique-features-row">
+                ${productData.features.map(f => `
+                    <div class="unique-feature">
+                        <img src="${f.icon}" alt="${f.text}">
+                        <p>${f.text}</p>
+                    </div>
+                `).join('')}
+            </div>
+        </div>
+    `;
+}
 
-    // Atualizando as características
-    document.getElementById('icon1').src = product.features[0].icon;
-    document.getElementById('featureText1').innerText = product.features[0].text;
+function showAllProducts() {
+    const productsContainer = document.getElementById('productsContainer');
+    productsContainer.innerHTML = ''; // Limpar o container antes de exibir os produtos
 
-    document.getElementById('icon2').src = product.features[1].icon;
-    document.getElementById('featureText2').innerText = product.features[1].text;
+    for (const [key, value] of Object.entries(products)) {
+        productsContainer.innerHTML += createProductHTML(key, value);
+    }
 
-    document.getElementById('icon3').src = product.features[2].icon;
-    document.getElementById('featureText3').innerText = product.features[2].text;
-
-    document.getElementById('productContent').style.display = 'block';
-
-    // Inicializando ou reinicializando o novo Swiper com nome específico
-    new Swiper('.product-swiper-container', {
-        slidesPerView: 1,
-        effect: "fade",
-        direction: 'horizontal', // Diferente do primeiro, por exemplo
-        loop: true, // Sem loop
-        autoplay: {
-            delay: 3000, // 3000 ms = 3 seconds
-            disableOnInteraction: false, // Keeps autoplay even after user interaction
-        },
-        pagination: {
-            el: '.product-swiper-pagination',
-            clickable: true
-        },
-        
-        loop: true
+    // Inicializando os carrosseis Swiper com identificadores únicos
+    document.querySelectorAll('.unique-swiper-container').forEach((swiperContainer, index) => {
+        const productKey = Object.keys(products)[index];
+        new Swiper(swiperContainer, {
+            slidesPerView: 1,
+            effect: "fade",
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: swiperContainer.querySelector(`.unique-swiper-pagination-${productKey}`), // Paginação específica para o produto
+                clickable: true,
+            }
+        });
     });
 }
 
+function showProduct() {
+    const selectedProduct = document.querySelector('.dropdown-list li.selected')?.getAttribute('data-value');
+    
+    if (!selectedProduct) {
+        showAllProducts(); // Mostra todos se nenhum estiver selecionado
+        return;
+    }
 
+    const productsContainer = document.getElementById('productsContainer');
+    productsContainer.innerHTML = createProductHTML(selectedProduct, products[selectedProduct]);
 
+    new Swiper('.unique-swiper-container', {
+        slidesPerView: 1,
+        effect: "fade",
+        loop: true,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: `.unique-swiper-pagination-${selectedProduct}`,
+            clickable: true,
+        }
+    });
+}
 
+// Listener para dropdown
+document.querySelectorAll('.dropdown-list li').forEach(item => {
+    item.addEventListener('click', function() {
+        document.querySelector('.dropdown-button').textContent = this.textContent;
+        document.querySelectorAll('.dropdown-list li').forEach(el => el.classList.remove('selected'));
+        this.classList.add('selected');
+        showProduct();
+    });
+});
+
+document.querySelector('.dropdown-button').addEventListener('click', function() {
+    const dropdownList = document.querySelector('.dropdown-list');
+    dropdownList.style.display = dropdownList.style.display === 'block' ? 'none' : 'block';
+});
+
+showAllProducts(); // Exibir todos os produtos por padrão

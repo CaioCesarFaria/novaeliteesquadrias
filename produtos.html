@@ -92,51 +92,20 @@
     <section class="container_produtos_lista">
 
         <!--  DROPLIST E CARROSSEL PRODUTOS -->
-        <!--  DROPLIST E CARROSSEL PRODUTOS -->
-        <div class="dropdown">
-            <select id="productSelect" onchange="showProduct()">
-                <option value="">Catálogo de Produtos</option>
-                <option value="pivotantes">PORTAS PIVOTANTES</option>
-                <option value="persianasIntegradas">PERSIANAS INTEGRADAS</option>
-                <option value="janelasPortasDeCorrer">JANELAS E PORTAS DE CORRER</option>
-                <option value="maximAr">MAXIM-AR</option>
-                <option value="pivotantes">FIXOS</option>
-                <option value="fachadasPeleDeVidro">FACHADAS / PELE DE VIDRO</option>
-                <option value="pivotantes">GUARDA-CORPO</option>
-                <!-- Adicione mais produtos conforme necessário -->
-            </select>
+        <!-- Drop-list para seleção de produtos -->
+        <div class="dropdown-custom">
+            <button class="dropdown-button">Catálogo de Produtos</button>
+            <ul class="dropdown-list" id="productList">
+                <li data-value="pivotantes">PORTAS PIVOTANTES</li>
+                <li data-value="persianas">PERSIANAS INTEGRADAS</li>
+                <li data-value="janelasPortasDeCorrer">JANELAS E PORTAS DE CORRER</li>
+                <li data-value="maximAr">MAXIM-AR</li>
+                <li data-value="fachadasPeleDeVidro">FACHADAS / PELE DE VIDRO</li>
+            </ul>
         </div>
-        <!-- Carrossel e Texto -->
-        <div id="productContent" style="display: none;">
-            <div class="product-details">
-                <div class="swiper-container product-swiper-container"> <!-- Classe específica para o novo Swiper -->
-                    <div class="swiper-wrapper" id="productSwiperWrapper">
 
-                    </div>
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination product-swiper-pagination"></div>
-
-                </div>
-
-                <!-- Texto descritivo -->
-                <div id="description" class="description"></div>
-            </div>
-
-            <!-- Características -->
-            <div class="features">
-                <div id="feature1" class="feature-item">
-                    <img id="icon1" src="" alt="Ícone 1">
-                    <p id="featureText1"></p>
-                </div>
-                <div id="feature2" class="feature-item">
-                    <img id="icon2" src="" alt="Ícone 2">
-                    <p id="featureText2"></p>
-                </div>
-                <div id="feature3" class="feature-item">
-                    <img id="icon3" src="" alt="Ícone 3">
-                    <p id="featureText3"></p>
-                </div>
-            </div>
+        <div id="productsContainer">
+            <!-- Aqui serão inseridos todos os produtos -->
         </div>
 
     </section>
@@ -145,7 +114,7 @@
     <section class="container_footer">
         <div class="footer_col_1">
             <img src="./assets/logo_vertical.png" alt="Lofo da Nova Elite esquadrias" class="logo_footer">
-            
+
         </div>
         <div class="footer_col_2">
             <iframe
@@ -154,7 +123,7 @@
                 referrerpolicy="no-referrer-when-downgrade">
             </iframe>
             <div class="footer_botoes">
-                
+
                 <a href="https://wa.me/5562994577100" target="_blank" class="btn_zap">
                     <img src="./assets/icon_telefone.png">
                     <p>(62) 99429-5974</p>
