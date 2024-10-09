@@ -56,6 +56,29 @@
             </nav>
         </div>
     </section>
+    <!-- CONTAINER PORTFÓLIO ----------------------------------------------------------------- -->
+    <section class="container_portfolio">
+        <div class="portfolio_inicio">
+            <p class="portfolio_title">Portfólio</p>
+            <div class="portfolio_tipos">
+                <div class="portfolio_residencial" onclick="showPortfolio('residencial')">
+                    <p class="portfolio_tipo_title">RESIDENCIAL</p>
+                </div>
+
+                <div class="portfolio_predial">
+                    <p class="portfolio_tipo_title" onclick="showPortfolio('predial')">PREDIAL</p>
+                </div>
+
+                <div class="portfolio_comercial" onclick="showPortfolio('comercial')">
+                    <p class="portfolio_tipo_title">COMERCIAL</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio_obras" id="portfolio_obras">
+            <!-- As imagens das obras aparecerão aqui -->
+        </div>
+    </section>
     <section class="container_footer">
         <div class="footer_col_1">
             <img src="./assets/logo_vertical.png" alt="Lofo da Nova Elite esquadrias" class="logo_footer">
@@ -84,6 +107,8 @@
     <div class="copyright">
         <p>Criado por GAIA Desenvolvimento Web e Design</p>
     </div>
+    <script src="./script/SeletorObras.js"></script>
+    
 </body>
 
 </html>
