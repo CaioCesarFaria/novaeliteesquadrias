@@ -71,7 +71,7 @@ const products = {
             '/assets/droplist/pivotante_3.png',
             '/assets/droplist/pivotante_4.png'
         ],
-        description: 'As portas pivotantes são ideais para entradas principais, oferecendo um design elegante e imponente. Com um eixo vertical de rotação, permitem uma abertura ampla e marcante, combinando estética moderna com robustez. Fabricadas em alumínio, garantem durabilidade e leveza.',
+        description: '<strong>Portas Pivotantes</strong> <br>As portas pivotantes são ideais para entradas principais, oferecendo um design elegante e imponente. Com um eixo vertical de rotação, permitem uma abertura ampla e marcante, combinando estética moderna com robustez. Fabricadas em alumínio, garantem durabilidade e leveza.',
         features: [
             { icon: '/assets/droplist/icon_piv_1.png', text: 'Imponente' },
             { icon: '/assets/droplist/icon_piv_2.png', text: 'Robusta' },
@@ -86,7 +86,7 @@ const products = {
             '/assets/droplist/correr_3.png',
             '/assets/droplist/correr_4.png'
         ],
-        description: 'Portas e janelas de correr são práticas para otimizar espaços. Suas folhas deslizantes garantem abertura sem ocupar área útil, oferecendo ampla entrada de luz. Esquadrias de alumínio proporcionam resistência e leveza.',
+        description: '<strong>Portas e Janelas de correr</strong> <br>Portas e janelas de correr são práticas para otimizar espaços. Suas folhas deslizantes garantem abertura sem ocupar área útil, oferecendo ampla entrada de luz. Esquadrias de alumínio proporcionam resistência e leveza.',
         features: [
             { icon: '/assets/droplist/icon_correr_1.png', text: 'Compactada' },
             { icon: '/assets/droplist/icon_correr_2.png', text: 'Elegante' },

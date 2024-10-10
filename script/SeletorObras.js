@@ -1,8 +1,8 @@
 // Dados das obras
 const obras = {
     residencial: [
-        { nome: 'Sunflower 01', img: '../assets/portfolio/residencial/Sunflower_1/res_01_capa.png' },
-        { nome: 'Sunflower 02', img: 'link_da_imagem2' },
+        { nome: 'Sunflower 01', img: '../assets/portfolio/residencial/Sunflower_1/sun_01_capa.png' },
+        { nome: 'Sunflower 02', img: '../assets/portfolio/residencial/Sunflower_1/sun_01_3.png' },
         // Continue para todas as 24 obras...
     ],
     predial: [
