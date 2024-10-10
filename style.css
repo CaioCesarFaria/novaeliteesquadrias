@@ -574,7 +574,7 @@ body {
         background-color: var(--azul-principal);
         align-items: center;
         justify-content: center;
-        margin-top: 3rem;
+        margin-top: 1.5rem;
         font-family: var(--fonte-principal);
 
 
@@ -587,12 +587,12 @@ body {
 
     .solucoes_title {
         color: #46DFDB;
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .solucoes_txt {
         color: var(--branco-fundo);
-        font-size: 12px;
+        font-size: 14px;
         padding-bottom: 1rem;
 
     }
@@ -689,7 +689,7 @@ body {
     .title_carrossel {
         font-family: var(--fonte-principal);
         text-align: center;
-        font-size: 26px;
+        font-size: 24px;
         color: var(--azul-principal);
         font-weight: 600;
         padding: 1rem 1.5rem;
@@ -3458,7 +3458,7 @@ body {
 
     .solucoes_box {
         width: 80vw;
-        padding: 2rem 0;
+        padding: 1.5rem 0;
         display: flex;
         flex-direction: column;
 
@@ -3466,12 +3466,12 @@ body {
 
     .solucoes_title {
         color: #46DFDB;
-        font-size: 46px;
+        font-size:34px;
     }
 
     .solucoes_txt {
         color: var(--branco-fundo);
-        font-size: 32px;
+        font-size: 28px;
         padding-bottom: 1rem;
 
     }
@@ -3483,7 +3483,7 @@ body {
         color: var(--branco-fundo);
         padding: 0.2rem 1.2rem;
         margin-bottom: 2rem;
-        margin-top: 4rem;
+        margin-top: 1rem;
         font-family: var(--fonte-principal);
         animation: pulsar 1.5s ease-in-out infinite;
         /* Duração de 1.5s, efeito contínuo */
