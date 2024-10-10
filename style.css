@@ -1388,6 +1388,146 @@ body {
         height: 140px;
         width: 90vw;
     }
+
+    /* DROPLIST CUSTOMIZADAS - LISTA DE SELEÇÃO DE PRODUTOS */
+    .title_carrossel {
+        font-family: var(--fonte-principal);
+        text-align: center;
+        font-size: 26px;
+        color: var(--azul-principal);
+        font-weight: 600;
+        padding: 1rem 1.5rem;
+    }
+    .container_produtos_lista {
+        width: 100vw;
+        
+    }
+
+    .dropdown-custom {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        
+        
+    }
+    .dropdown-list {
+        display: flex;
+        margin: 0;
+        background-color: var(--azul-principal);
+        cursor: pointer;
+        
+        
+        
+
+    }
+    .dropdown-list li {
+        list-style: none;
+        font-family: var(--fonte-principal);
+        color: var(--branco-fundo);
+        font-size: 16px;
+        padding: 1rem 0;
+    }
+
+    .dropdown-button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--azul-principal);
+        border: 1px solid #ccc;
+        padding: 0.5rem 0 0.5rem 2.5rem;
+        cursor: pointer;
+        width: 100%;
+        text-align: left;
+        font-family: var(--fonte-principal);
+        font-size: 20px;
+        color: var(--branco-fundo);
+        margin-bottom: 3rem;
+    }
+    .dropdown-button img{
+        padding-right: 2rem;
+        width: 35px;
+        height: 35px;
+    }
+
+    /* Estilos para a estrutura */
+    .container_produtos_lista {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .unique-product {
+        margin-bottom: 40px;
+    }
+
+    .unique-content-row {
+        display: flex;
+        
+        justify-content: space-between;
+        align-items: flex-start;
+        
+        margin: 1rem 1rem;
+    }
+
+    .unique-swiper-container {
+        width: 40%;
+    }
+
+    .unique-description {
+        width: 60%;
+        padding-left: 20px;
+        font-family: var(--fonte-principal);
+        font-size: 12px;
+        text-align: left;
+        display: flex;
+        align-self: flex-start;
+        color: var(--azul-principal);
+        
+        
+    }
+    .unique-description p {
+        margin: 0;
+    }
+
+
+    .unique-features-row {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+        
+        margin: 1rem 1rem;
+        padding: 1rem 0;
+
+    }
+
+    .unique-feature {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30vw;
+    }
+
+    .unique-feature img {
+        width: 25px;
+        height: 25px;
+        margin-bottom: 10px;
+        
+    }
+
+    .unique-feature p {
+        font-size: 12px;
+        color:var(--azul-principal);
+        font-family: var(--fonte-principal);
+        font-weight: 700;
+        
+
+    }
+
+    .unique-swiper-pagination {
+        text-align: center;
+        padding-top: 10px;
+    }
 }
 
 /* TODO ======== TABLET / 769 PX  ATÉ 1023PX ============================= */
@@ -1914,6 +2054,132 @@ body {
         background-size: cover;
         height: 140px;
         width: 30vw;
+    }
+    /* DROPLIST CUSTOMIZADAS - LISTA DE SELEÇÃO DE PRODUTOS */
+    .title_carrossel {
+        font-family: var(--fonte-principal);
+        text-align: center;
+        font-size: 30px;
+        color: var(--azul-principal);
+        font-weight: 600;
+        padding: 1rem 0;
+    }
+    .container_produtos_lista {
+        width: 100vw;
+    }
+
+    .dropdown-custom {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        
+    }
+    .dropdown-list {
+        display: flex;
+        margin: 0;
+        background-color: var(--azul-principal);
+        cursor: pointer;
+        
+        
+
+    }
+    .dropdown-list li {
+        list-style: none;
+        font-family: var(--fonte-principal);
+        color: var(--branco-fundo);
+        font-size: 20px;
+        padding: 1rem 0;
+    }
+
+    .dropdown-button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--azul-principal);
+        border: 1px solid #ccc;
+        padding: 0.5rem 0 0.5rem 2.5rem;
+        cursor: pointer;
+        width: 100%;
+        text-align: left;
+        font-family: var(--fonte-principal);
+        font-size: 20px;
+        color: var(--branco-fundo);
+        margin-bottom: 3rem;
+    }
+    .dropdown-button img{
+        padding-right: 2rem;
+    }
+
+    /* Estilos para a estrutura */
+    .container_produtos_lista {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .unique-product {
+        margin-bottom: 40px;
+    }
+
+    .unique-content-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        column-gap: 1rem;
+        margin: 1rem 4rem;
+    }
+
+    .unique-swiper-container {
+        width: 50%;
+    }
+
+    .unique-description {
+        width: 60%;
+        padding-left: 20px;
+        font-family: var(--fonte-principal);
+        font-size: 16px;
+        text-align: left;
+        display: flex;
+        align-self: flex-start;
+        color: var(--azul-principal);
+        
+    }
+
+    .unique-features-row {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+        
+        margin: 1rem 6rem;
+        padding: 1rem 0;
+
+    }
+
+    .unique-feature {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .unique-feature img {
+        width: 30px;
+        height: 30px;
+        margin-bottom: 10px;
+        
+    }
+
+    .unique-feature p {
+        font-size: 16px;
+        color:var(--azul-principal);
+        font-family: var(--fonte-principal);
+        font-weight: 700;;
+
+    }
+
+    .unique-swiper-pagination {
+        text-align: center;
+        padding-top: 10px;
     }
 }
 
@@ -2450,6 +2716,133 @@ body {
         width: 30vw;
     }
 
+    /* DROPLIST CUSTOMIZADAS - LISTA DE SELEÇÃO DE PRODUTOS */
+    .title_carrossel {
+        font-family: var(--fonte-principal);
+        text-align: center;
+        font-size: 30px;
+        color: var(--azul-principal);
+        font-weight: 600;
+        padding: 1rem 0;
+    }
+    .container_produtos_lista {
+        width: 100vw;
+    }
+
+    .dropdown-custom {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        
+    }
+    .dropdown-list {
+        display: flex;
+        margin: 0;
+        background-color: var(--azul-principal);
+        cursor: pointer;
+        
+        
+
+    }
+    .dropdown-list li {
+        list-style: none;
+        font-family: var(--fonte-principal);
+        color: var(--branco-fundo);
+        font-size: 20px;
+        padding: 1rem 0;
+    }
+
+    .dropdown-button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--azul-principal);
+        border: 1px solid #ccc;
+        padding: 0.5rem 0 0.5rem 2.5rem;
+        cursor: pointer;
+        width: 100%;
+        text-align: left;
+        font-family: var(--fonte-principal);
+        font-size: 20px;
+        color: var(--branco-fundo);
+        margin-bottom: 3rem;
+    }
+    .dropdown-button img{
+        padding-right: 2rem;
+    }
+
+    /* Estilos para a estrutura */
+    .container_produtos_lista {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .unique-product {
+        margin-bottom: 40px;
+    }
+
+    .unique-content-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        column-gap: 1rem;
+        margin: 1rem 6rem;
+    }
+
+    .unique-swiper-container {
+        width: 40%;
+    }
+
+    .unique-description {
+        width: 60%;
+        padding-left: 20px;
+        font-family: var(--fonte-principal);
+        font-size: 20px;
+        text-align: left;
+        display: flex;
+        align-self: flex-start;
+        color: var(--azul-principal);
+        
+    }
+
+    .unique-features-row {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+        
+        margin: 1rem 6rem;
+        padding: 1rem 0;
+
+    }
+
+    .unique-feature {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .unique-feature img {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 10px;
+        
+    }
+
+    .unique-feature p {
+        font-size: 16px;
+        color:var(--azul-principal);
+        font-family: var(--fonte-principal);
+        font-weight: 700;;
+
+    }
+
+    .unique-swiper-pagination {
+        text-align: center;
+        padding-top: 10px;
+    }
+
 
 }
 
@@ -2960,6 +3353,8 @@ body {
         font-size: 24px;
     }
 
+    
+    /* DROPLIST CUSTOMIZADAS - LISTA DE SELEÇÃO DE PRODUTOS */
     .title_carrossel {
         font-family: var(--fonte-principal);
         text-align: center;
@@ -2968,7 +3363,6 @@ body {
         font-weight: 600;
         padding: 1rem 0;
     }
-    /* DROPLIST CUSTOMIZADAS - LISTA DE SELEÇÃO DE PRODUTOS */
     .container_produtos_lista {
         width: 100vw;
     }
