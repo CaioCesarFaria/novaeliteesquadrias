@@ -689,7 +689,7 @@ body {
     .title_carrossel {
         font-family: var(--fonte-principal);
         text-align: center;
-        font-size: 24px;
+        font-size: 22px;
         color: var(--azul-principal);
         font-weight: 600;
         padding: 1rem 1.5rem;
