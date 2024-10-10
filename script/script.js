@@ -272,6 +272,8 @@ document.querySelectorAll('.dropdown-list li').forEach(item => {
         document.querySelectorAll('.dropdown-list li').forEach(el => el.classList.remove('selected'));
         this.classList.add('selected');
         showProduct();
+        // Esconde a lista após a seleção
+        document.querySelector('.dropdown-list').style.display = 'none';
     });
 });
 

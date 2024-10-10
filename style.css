@@ -735,7 +735,8 @@ body {
         
     }
     .dropdown-list {
-        display: flex;
+        display: none;
+        flex-direction: column;
         margin: 0;
         background-color: var(--azul-principal);
         cursor: pointer;
@@ -1610,7 +1611,8 @@ body {
         
     }
     .dropdown-list {
-        display: flex;
+        display: none;
+        flex-direction: column;
         margin: 0;
         background-color: var(--azul-principal);
         cursor: pointer;
@@ -2305,7 +2307,8 @@ body {
         
     }
     .dropdown-list {
-        display: flex;
+        display: none;
+        flex-direction: column;
         margin: 0;
         background-color: var(--azul-principal);
         cursor: pointer;
@@ -2997,7 +3000,8 @@ body {
         
     }
     .dropdown-list {
-        display: flex;
+        display: none;
+        flex-direction: column;
         margin: 0;
         background-color: var(--azul-principal);
         cursor: pointer;
@@ -3636,7 +3640,8 @@ body {
         
     }
     .dropdown-list {
-        display: flex;
+        display: none;
+        flex-direction: column;
         margin: 0;
         background-color: var(--azul-principal);
         cursor: pointer;
