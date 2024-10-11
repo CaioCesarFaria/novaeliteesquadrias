@@ -3572,7 +3572,7 @@ body {
         display: flex;
         flex-direction: column;
         width: 100%;
-        background-color: var(--azul-principal);
+        background-color: var(--branco-fundo);
         align-items: center;
         justify-content: center;
         margin-top: 3rem;
@@ -3595,9 +3595,10 @@ body {
     }
 
     .solucoes_txt {
-        color: var(--branco-fundo);
+        color: var(--azul-principal);
         font-size: 28px;
         padding-bottom: 1rem;
+        
 
     }
 
