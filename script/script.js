@@ -23,7 +23,10 @@ const swiper = new Swiper('.swiper', {
         el: '.swiper-pagination',
     },
 
-
+    navigation: {
+        nextEl: '.swiper-button-next-inicio', // Correspondendo à classe HTML
+        prevEl: '.swiper-button-prev-inicio', // Correspondendo à classe HTML
+    },
 
     // And if we need scrollbar
     scrollbar: {
