@@ -214,6 +214,26 @@ function createProductHTML(productKey, productData) {
         </div>
     `;
 }
+function insertCatalogOption() {
+    const dropdownList = document.querySelector('.dropdown-list');
+    const catalogOption = dropdownList.querySelector('[data-value="catalogo"]');
+
+    // Se a opção "Catálogo de Produtos" ainda não existe, insira-a no início
+    if (!catalogOption) {
+        const catalogItem = document.createElement('li');
+        catalogItem.setAttribute('data-value', 'catalogo');
+        catalogItem.textContent = 'Catálogo de Produtos';
+
+        // Adiciona a opção ao topo da lista
+        dropdownList.insertBefore(catalogItem, dropdownList.firstChild);
+
+        // Adiciona o evento de clique para exibir todos os carrosseis
+        catalogItem.addEventListener('click', function() {
+            document.querySelector('.dropdown-button').textContent = 'Catálogo de Produtos';
+            showAllProducts(); // Exibe todos os carrosseis
+        });
+    }
+}
 
 function showAllProducts() {
     const productsContainer = document.getElementById('productsContainer');
@@ -222,7 +242,7 @@ function showAllProducts() {
     for (const [key, value] of Object.entries(products)) {
         productsContainer.innerHTML += createProductHTML(key, value);
     }
-
+    
     // Inicializando os carrosseis Swiper com identificadores únicos
     document.querySelectorAll('.unique-swiper-container').forEach((swiperContainer, index) => {
         const productKey = Object.keys(products)[index];
@@ -245,14 +265,17 @@ function showAllProducts() {
 function showProduct() {
     const selectedProduct = document.querySelector('.dropdown-list li.selected')?.getAttribute('data-value');
     
-    if (!selectedProduct) {
-        showAllProducts(); // Mostra todos se nenhum estiver selecionado
+    // Se "Catálogo de Produtos" for selecionado, mostra todos os carrosséis
+    if (!selectedProduct || selectedProduct === 'catalogo') {
+        showAllProducts();
         return;
     }
 
+    // Caso contrário, exibe o produto selecionado
     const productsContainer = document.getElementById('productsContainer');
     productsContainer.innerHTML = createProductHTML(selectedProduct, products[selectedProduct]);
 
+    // Inicializa o Swiper do produto selecionado
     new Swiper('.unique-swiper-container', {
         slidesPerView: 1,
         effect: "fade",
@@ -274,7 +297,16 @@ document.querySelectorAll('.dropdown-list li').forEach(item => {
         document.querySelector('.dropdown-button').textContent = this.textContent;
         document.querySelectorAll('.dropdown-list li').forEach(el => el.classList.remove('selected'));
         this.classList.add('selected');
-        showProduct();
+
+        const selectedProduct = this.getAttribute('data-value');
+
+        // Se um produto específico for selecionado, insere a opção "Catálogo de Produtos"
+        if (selectedProduct !== 'catalogo') {
+            insertCatalogOption();
+        }
+
+        showProduct(); // Exibe o produto selecionado
+
         // Esconde a lista após a seleção
         document.querySelector('.dropdown-list').style.display = 'none';
     });
@@ -282,6 +314,8 @@ document.querySelectorAll('.dropdown-list li').forEach(item => {
 
 document.querySelector('.dropdown-button').addEventListener('click', function() {
     const dropdownList = document.querySelector('.dropdown-list');
+    
+    // Mostra ou oculta a lista
     dropdownList.style.display = dropdownList.style.display === 'block' ? 'none' : 'block';
 });
 
