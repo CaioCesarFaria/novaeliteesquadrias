@@ -103,7 +103,7 @@ const products = {
             '/assets/droplist/persiana_3.png',
             
         ],
-        description: 'Persianas integradas controlam luz e ventilação com praticidade. Integradas às esquadrias de alumínio, otimizam o isolamento térmico e acústico. Com opções manuais ou motorizadas, oferecem funcionalidade e estética limpa.',
+        description: '<strong>Persianas Integradas</strong> <br>Persianas integradas controlam luz e ventilação com praticidade. Integradas às esquadrias de alumínio, otimizam o isolamento térmico e acústico. Com opções manuais ou motorizadas, oferecem funcionalidade e estética limpa.',
         features: [
             { icon: '/assets/droplist/icon_persiana_1.png', text: 'Funcional' },
             { icon: '/assets/droplist/icon_persiana_2.png', text: 'Tecnológica' },
@@ -117,7 +117,7 @@ const products = {
             '/assets/droplist/maximAr_3.png',
             '/assets/droplist/maximAr_4.png'
         ],
-        description: 'As janelas Maxim-ar oferecem ventilação eficiente com abertura parcial. Quando combinadas a um painel fixo, proporcionam um visual contínuo, alinhando-se discretamente quando fechadas. São ideais para garantir a aeração sem comprometer o design da fachada.',
+        description: '<strong>Janelas Maxim-ar</strong> <br>As janelas Maxim-ar oferecem ventilação eficiente com abertura parcial. Quando combinadas a um painel fixo, proporcionam um visual contínuo, alinhando-se discretamente quando fechadas. São ideais para garantir a aeração sem comprometer o design da fachada.',
         features: [
             { icon: '/assets/droplist/icon_maxim_1.png', text: 'Ventilado' },
             { icon: '/assets/droplist/icon_maxim_2.png', text: 'Discreto' },
@@ -131,7 +131,7 @@ const products = {
             '/assets/droplist/fachadas_3.png',
             '/assets/droplist/fachadas_4.png'
         ],
-        description: 'As fachadas pele de vidro são conhecidas por seu design moderno e elegante, com grandes superfícies envidraçadas que proporcionam ampla entrada de luz natural. Uma das principais características é o fato de os perfis de alumínio ficarem ocultos, resultando em um visual limpo e sofisticado.',
+        description: '<strong>Fachadas / Pele de Vidro</strong> <br>As fachadas pele de vidro são conhecidas por seu design moderno e elegante, com grandes superfícies envidraçadas que proporcionam ampla entrada de luz natural. Uma das principais características é o fato de os perfis de alumínio ficarem ocultos, resultando em um visual limpo e sofisticado.',
         features: [
             { icon: '/assets/droplist/icon_fachadas_1.png', text: 'Controle Térmico e Luminoso' },
             { icon: '/assets/droplist/icon_fachadas_2.png', text: 'Design Moderno' },
@@ -145,7 +145,7 @@ const products = {
             '/assets/droplist/fachadas_3.png',
             '/assets/droplist/fachadas_4.png'
         ],
-        description: 'Portas de giro são versáteis e tradicionais, com abertura lateral em dobradiça. Feitas de alumínio, garantem resistência e são ideais para ambientes internos e externos, proporcionando uma estética moderna e funcional.',
+        description: '<strong>Porta de Giro</strong> <br>Portas de giro são versáteis e tradicionais, com abertura lateral em dobradiça. Feitas de alumínio, garantem resistência e são ideais para ambientes internos e externos, proporcionando uma estética moderna e funcional.',
         features: [
             { icon: '/assets/droplist/icon_giro_1.png', text: 'Prática' },
             { icon: '/assets/droplist/icon_giro_2.png', text: 'Adaptável' },
@@ -159,7 +159,7 @@ const products = {
             '/assets/droplist/fachadas_3.png',
             '/assets/droplist/fachadas_4.png'
         ],
-        description: 'Painéis fixos em alumínio são ideais para quem busca iluminação natural sem a necessidade de abertura. Com design minimalista, são resistentes e duráveis, oferecendo estética moderna em fachadas e interiores.',
+        description: '<strong>Painéis Fixos</strong> <br>Painéis fixos em alumínio são ideais para quem busca iluminação natural sem a necessidade de abertura. Com design minimalista, são resistentes e duráveis, oferecendo estética moderna em fachadas e interiores.',
         features: [
             { icon: '/assets/droplist/icon_fixos_1.png', text: 'Minimalista' },
             { icon: '/assets/droplist/icon_fixos_2.png', text: 'Tradicional' },
@@ -173,7 +173,7 @@ const products = {
             '/assets/droplist/fachadas_3.png',
             '/assets/droplist/fachadas_4.png'
         ],
-        description: 'Guarda-corpos em alumínio combinam segurança e design. Ideais para varandas e escadas, são resistentes à corrosão e podem ser combinados com vidro, oferecendo leveza e transparência sem comprometer a segurança.',
+        description: '<strong>Guarda-corpos</strong> <br>Guarda-corpos em alumínio combinam segurança e design. Ideais para varandas e escadas, são resistentes à corrosão e podem ser combinados com vidro, oferecendo leveza e transparência sem comprometer a segurança.',
         features: [
             { icon: '/assets/droplist/icon_corpo_1.png', text: 'Seguro' },
             { icon: '/assets/droplist/icon_corpo_2.png', text: 'Estético' },
