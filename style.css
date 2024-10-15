@@ -3606,7 +3606,7 @@ body {
 
     .swiper-button-next-inicio::after,
     .swiper-button-prev-inicio::after {
-        font-size: 44x;
+        font-size: 25px;
         /* Aumenta o tamanho da seta */
         border-width: 22px;
         /* Aumenta a espessura da seta */
@@ -3614,30 +3614,32 @@ body {
     }
 
     .swiper-button-prev-inicio {
-        color: var(--azul-principal);
+        color: var(--branco-fundo);
         
         width: 50px;
         height: 50px;
-        background-color: var(--branco-fundo);
+        background-color: var(--azul-principal);
         border-radius: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-left: 2rem;
+        opacity: 0.8;
     }
 
     /* Estilize as setas */
     .swiper-button-next-inicio {
-        color: var(--azul-principal);
+        color: var(--branco-fundo);
         
         width: 50px;
         height: 50px;
-        background-color: var(--branco-fundo);
+        background-color: var(--azul-principal);
         border-radius: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-right: 2rem;
+        opacity: 0.8;
     }
 
     /* Apresentação fotos página inicial */
