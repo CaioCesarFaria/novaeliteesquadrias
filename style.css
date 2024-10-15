@@ -719,6 +719,13 @@ body {
         align-items: center;
         row-gap: 1rem;
         width: 100vw;
+
+    }
+    .linha_separacao {
+        color: var(--azul-principal);
+        width: 90vw;
+        height: 2px;
+        background-color: var(--azul-principal);
     }
 
     .portfolio_residencial {
@@ -803,7 +810,8 @@ body {
         font-family: var(--fonte-principal);
         color: var(--branco-fundo);
         font-size: 16px;
-        padding: 1rem 0;
+        
+        height: 45px;
     }
 
     .dropdown-button {
@@ -812,9 +820,10 @@ body {
         justify-content: space-between;
         background-color: var(--azul-principal);
         border: 1px solid #ccc;
-        padding: 0.5rem 0 0.5rem 2.5rem;
+        padding: 0 0 0 2.5rem;
         cursor: pointer;
         width: 100%;
+        height: 45px;
         text-align: left;
         font-family: var(--fonte-principal);
         font-size: 20px;
@@ -877,6 +886,7 @@ body {
 
         margin: 1rem 1rem;
         padding: 1rem 0;
+        border-bottom: 1px solid var(--azul-principal);
 
     }
 
@@ -886,6 +896,8 @@ body {
         flex-direction: column;
         align-items: center;
         width: 30vw;
+        
+
     }
 
     .unique-feature img {
@@ -1652,6 +1664,12 @@ body {
         row-gap: 1rem;
         width: 100vw;
     }
+    .linha_separacao {
+        color: var(--azul-principal);
+        width: 90vw;
+        height: 2px;
+        background-color: var(--azul-principal);
+    }
 
     .portfolio_residencial {
         background-image: url(./assets/background/bg_residencial.png);
@@ -1734,7 +1752,7 @@ body {
         font-family: var(--fonte-principal);
         color: var(--branco-fundo);
         font-size: 16px;
-        padding: 1rem 0;
+        height: 45px;
     }
 
     .dropdown-button {
@@ -1743,9 +1761,10 @@ body {
         justify-content: space-between;
         background-color: var(--azul-principal);
         border: 1px solid #ccc;
-        padding: 0.5rem 0 0.5rem 2.5rem;
+        padding: 0 0 0 2.5rem;
         cursor: pointer;
         width: 100%;
+        height: 45px;
         text-align: left;
         font-family: var(--fonte-principal);
         font-size: 20px;
@@ -1805,7 +1824,7 @@ body {
         justify-content: space-around;
         align-items: center;
         margin-top: 20px;
-
+        border-bottom: 1px solid var(--azul-principal);
         margin: 1rem 1rem;
         padding: 1rem 0;
 
@@ -2411,6 +2430,13 @@ body {
         justify-content: space-evenly;
         width: 100vw;
     }
+    .linha_separacao {
+        color: var(--azul-principal);
+        width: 95vw;
+        height: 2px;
+        background-color: var(--azul-principal);
+        margin-top: 3rem;
+    }
 
     .portfolio_residencial {
         background-image: url(./assets/background/bg_residencial.png);
@@ -2490,7 +2516,7 @@ body {
         font-family: var(--fonte-principal);
         color: var(--branco-fundo);
         font-size: 20px;
-        padding: 1rem 0;
+        height: 45px;
     }
 
     .dropdown-button {
@@ -2499,9 +2525,10 @@ body {
         justify-content: space-between;
         background-color: var(--azul-principal);
         border: 1px solid #ccc;
-        padding: 0.5rem 0 0.5rem 2.5rem;
+        padding: 0 0 0 2.5rem;
         cursor: pointer;
         width: 100%;
+        height: 45px;
         text-align: left;
         font-family: var(--fonte-principal);
         font-size: 20px;
@@ -2552,7 +2579,7 @@ body {
         justify-content: space-around;
         align-items: center;
         margin-top: 20px;
-
+        border-bottom: 1px solid var(--azul-principal);
         margin: 1rem 6rem;
         padding: 1rem 0;
 
@@ -3155,6 +3182,13 @@ body {
         justify-content: space-evenly;
         width: 100vw;
     }
+    .linha_separacao {
+        color: var(--azul-principal);
+        width: 95vw;
+        height: 2px;
+        background-color: var(--azul-principal);
+        margin-top: 3rem;
+    }
 
     .portfolio_residencial {
         background-image: url(./assets/background/bg_residencial.png);
@@ -3234,7 +3268,7 @@ body {
         font-family: var(--fonte-principal);
         color: var(--branco-fundo);
         font-size: 20px;
-        padding: 1rem 0;
+        height: 50px;
     }
 
     .dropdown-button {
@@ -3243,10 +3277,11 @@ body {
         justify-content: space-between;
         background-color: var(--azul-principal);
         border: 1px solid #ccc;
-        padding: 0.5rem 0 0.5rem 2.5rem;
+        padding: 0 0 0 2.5rem;
         cursor: pointer;
         width: 100%;
         text-align: left;
+        height: 50px;
         font-family: var(--fonte-principal);
         font-size: 20px;
         color: var(--branco-fundo);
@@ -3297,7 +3332,7 @@ body {
         justify-content: space-around;
         align-items: center;
         margin-top: 20px;
-
+        border-bottom: 1px solid var(--azul-principal);
         margin: 1rem 6rem;
         padding: 1rem 0;
 
@@ -3959,7 +3994,7 @@ body {
         font-family: var(--fonte-principal);
         color: var(--branco-fundo);
         font-size: 20px;
-        padding: 1rem 0;
+        height: 50px;
     }
 
     .dropdown-button {
@@ -3968,9 +4003,10 @@ body {
         justify-content: space-between;
         background-color: var(--azul-principal);
         border: 1px solid #ccc;
-        padding: 0.5rem 0 0.5rem 2.5rem;
+        padding: 0 0 0 2.5rem;
         cursor: pointer;
         width: 100%;
+        height: 50px;
         text-align: left;
         font-family: var(--fonte-principal);
         font-size: 20px;
@@ -4020,7 +4056,7 @@ body {
         justify-content: space-around;
         align-items: center;
         margin-top: 20px;
-
+        border-bottom: 1px solid var(--azul-principal);
         margin: 1rem 6rem;
         padding: 1rem 0;
 
@@ -4114,7 +4150,15 @@ body {
         justify-content: space-evenly;
         width: 100vw;
         cursor: pointer;
+        
 
+    }
+    .linha_separacao {
+        color: var(--azul-principal);
+        width: 95vw;
+        height: 2px;
+        background-color: var(--azul-principal);
+        margin-top: 3rem;
     }
 
     .portfolio_residencial {
