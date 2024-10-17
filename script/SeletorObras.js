@@ -1,8 +1,9 @@
 // Dados das obras
 const obras = {
     residencial: [
-        { nome: 'Sunflower 01', img: '../assets/portfolio/residencial/Sunflower_1/sun_01_capa.png' },
-        { nome: 'Sunflower 02', img: '../assets/portfolio/residencial/Sunflower_1/sun_01_3.png' },
+        { nome: 'Sunflower 01', img: '../assets/portfolio/residencial/01_Sunflower_1/res_01_capa.png' },
+        { nome: 'Triannon 01', img: '../assets/portfolio/residencial/01_Sunflower_1/res_01_2.png' },
+        { nome: 'Sunflower 02', img: '../assets/portfolio/residencial/01_Sunflower_1/res_01_2.png' },
         // Continue para todas as 24 obras...
     ],
     predial: [
@@ -23,9 +24,15 @@ function showPortfolio(tipo) {
     obras[tipo].forEach(obra => {
         const obraDiv = document.createElement('div');
         
+         // Cria o link que envolverá a imagem
+         const obraLink = document.createElement('a');
+         obraLink.href = `projetos.html?obra=${obra.nome}`;
+
         const obraImg = document.createElement('img');
         obraImg.src = obra.img;
-        obraDiv.appendChild(obraImg);
+        obraLink.appendChild(obraImg); // Coloca a imagem dentro do link
+
+        obraDiv.appendChild(obraLink); // Adiciona o link ao div
         
         const obraNome = document.createElement('p');
         obraNome.textContent = obra.nome;
@@ -40,3 +47,6 @@ function showPortfolio(tipo) {
 window.onload = function() {
     showPortfolio('residencial');
 };
+
+
+// CÓDIGO DE CADA OBRA CADASTRADA 
