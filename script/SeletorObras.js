@@ -16,7 +16,7 @@ const obras = {
         {
             nome: 'Triannon 01',
             img: '../assets/portfolio/residencial/01_Sunflower_1/res_01_2.png',
-            descricao: 'Descrição para a obra Triannon 01.',
+            descricao: '',
             imagens: [
                 '../assets/portfolio/residencial/02_Triannon_1/triannon_01.png'
             ]

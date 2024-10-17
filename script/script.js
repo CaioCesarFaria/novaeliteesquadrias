@@ -131,7 +131,7 @@ const products = {
             '/assets/droplist/fachadas_3.png',
             '/assets/droplist/fachadas_4.png'
         ],
-        description: '<strong>Fachadas / Pele de Vidro</strong> <br>As fachadas pele de vidro são conhecidas por seu design moderno e elegante, com grandes superfícies envidraçadas que proporcionam ampla entrada de luz natural. Uma das principais características é o fato de os perfis de alumínio ficarem ocultos, resultando em um visual limpo e sofisticado.',
+        description: '<strong>Fachadas em Pele de Vidro</strong> <br>As fachadas pele de vidro são conhecidas por seu design moderno e elegante, com grandes superfícies envidraçadas que proporcionam ampla entrada de luz natural. Uma das principais características é o fato de os perfis de alumínio ficarem ocultos, resultando em um visual limpo e sofisticado.',
         features: [
             { icon: '/assets/droplist/icon_fachadas_1.png', text: 'Controle Térmico e Luminoso' },
             { icon: '/assets/droplist/icon_fachadas_2.png', text: 'Design Moderno' },
