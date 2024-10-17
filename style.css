@@ -4324,6 +4324,13 @@ body {
         color: var(--azul-principal);
     }
 
+
+    /* ================================ CSS DAS OBRAS PAGINA PROJETO */
+
+    .portfolio_fotos {
+        
+    }
+
 }
 @media screen and (min-width: 1501px){
     .obras_imagens {
