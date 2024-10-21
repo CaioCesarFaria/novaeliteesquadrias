@@ -271,6 +271,7 @@ body {
         display: flex;
         justify-content: center;
         overflow-x: hidden;
+        margin-bottom: 2.5rem;
         
     }
 
@@ -279,8 +280,9 @@ body {
         color: var(--azul-principal);
         font-size: 24px;
         text-align: center;
-        padding: 1rem 1.5rem;
+        padding: 2rem 1.5rem 0rem 1.5rem;
         font-weight: 400;
+        margin: 0;
     }
 
     .swiper2 {
@@ -4702,6 +4704,7 @@ body {
         align-items: center;
         justify-content: center;
         display: flex;
+        opacity: 0.5;
     }
 
     .portfolio_tipo_title {
@@ -4723,6 +4726,7 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
+        opacity: 0.5;
     }
 
     .portfolio_predial {
@@ -4733,6 +4737,7 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
+        opacity: 0.5;
     }
 
     .portfolio_obras {
@@ -4834,7 +4839,7 @@ body {
         padding: 0.2rem 0.5rem;
     }
     .selecionado {
-        opacity: 0.5; /* Deixa opaco */
+        opacity: 1; /* Deixa opaco */
     }
     
     

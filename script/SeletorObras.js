@@ -30,7 +30,7 @@ const obras = {
             ]
         },
         {
-            nome: 'Grand Triannon 01',
+            nome: 'Grand Trianon 01',
             img: '../assets/portfolio/residencial/02_GrandTriannon_1/res_02_capa.png',
             descricao: '',
             imagens: [
@@ -52,7 +52,7 @@ const obras = {
             ]
         },
         {
-            nome: 'Grand Triannon 02',
+            nome: 'Grand Trianon 02',
             img: '../assets/portfolio/residencial/03_GrandTriannon_2/res_03_capa.png',
             descricao: '',
             imagens: [
@@ -69,7 +69,7 @@ const obras = {
         },
         
         {
-            nome: 'Grand Triannon 03',
+            nome: 'Grand Trianon 03',
             img: '../assets/portfolio/residencial/04_GrandTriannon_3/res_04_capa.png',
             descricao: '',
             imagens: [
@@ -82,7 +82,7 @@ const obras = {
             ]
         },
         {
-            nome: 'Grand Triannon 04',
+            nome: 'Grand Trianon 04',
             img: '../assets/portfolio/residencial/05_GrandTriannon_4/res_05_capa.png',
             descricao: '',
             imagens: [
@@ -90,7 +90,7 @@ const obras = {
             ]
         },
         {
-            nome: 'Grand Triannon 05',
+            nome: 'Grand Trianon 05',
             img: '../assets/portfolio/residencial/06_GrandTriannon_5/res_06_capa.png',
             descricao: '',
             imagens: [
@@ -101,7 +101,7 @@ const obras = {
             ]
         },
         {
-            nome: 'Grand Triannon 06',
+            nome: 'Grand Trianon 06',
             img: '../assets/portfolio/residencial/07_GrandTriannon_6/res_07_capa.png',
             descricao: '',
             imagens: [
@@ -161,7 +161,7 @@ const obras = {
             ]
         },
         {
-            nome: 'Grand Triannon 07',
+            nome: 'Grand Trianon 07',
             img: '../assets/portfolio/residencial/11_GrandTriannon_7/res_11_capa.png',
             descricao: '',
             imagens: [
@@ -280,7 +280,7 @@ function showPortfolio(tipo) {
     // Adiciona a classe 'selecionado' ao item clicado
     document.getElementById(tipo).classList.add('selecionado');
 
-    
+
     const container = document.getElementById('portfolio_obras');
     container.innerHTML = ''; // Limpa o conteúdo anterior
 

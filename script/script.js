@@ -158,7 +158,7 @@ const products = {
             '/assets/carrossel/prod_guardacorpo.png',
             
         ],
-        description: '<strong>Guarda-corpos</strong> <br>Guarda-corpos em alumínio combinam segurança e design. Ideais para varandas e escadas, são resistentes à corrosão e podem ser combinados com vidro, oferecendo leveza e transparência sem comprometer a segurança.',
+        description: '<strong>Guarda-Corpo</strong> <br>Guarda-Corpo em alumínio combinam segurança e design. Ideais para varandas e escadas, são resistentes à corrosão e podem ser combinados com vidro, oferecendo leveza e transparência sem comprometer a segurança.',
         features: [
             { icon: '/assets/droplist/icon_corpo_1.png', text: 'Seguro' },
             { icon: '/assets/droplist/icon_corpo_2.png', text: 'Estético' },
