@@ -235,23 +235,29 @@ const obras = {
     ],
     predial: [
         {
-            nome: 'Edifício Gênesis',
-            img: 'link_da_imagem3',
-            descricao: 'Descrição para o Edifício Gênesis.',
+            nome: 'Engecom Gênesis Office',
+            img: '../assets/portfolio/predial/01_EngecomGenesis/pred_01_capa.png',
+            descricao: '',
             imagens: [
-                'link_da_imagem3',
-                'link_da_imagem4'
+                '../assets/portfolio/predial/01_EngecomGenesis/pred_01_capa.png',
+                '../assets/portfolio/predial/01_EngecomGenesis/pred_01_1.png',
+                '../assets/portfolio/predial/01_EngecomGenesis/pred_01_2.png',
+                '../assets/portfolio/predial/01_EngecomGenesis/pred_01_3.png',
+                '../assets/portfolio/predial/01_EngecomGenesis/pred_01_4.png',
             ]
         }
     ],
     comercial: [
         {
             nome: 'Coco Bambu',
-            img: '../assets/portfolio/comercial/Coco_bambu/Coco_capa.png',
-            descricao: 'Descrição para a obra Coco Bambu.',
+            img: '../assets/portfolio/comercial/01_CocoBambu/com_01_capa.png',
+            descricao: '',
             imagens: [
-                'link_da_imagem7',
-                'link_da_imagem8'
+                '../assets/portfolio/comercial/01_CocoBambu/com_01_capa.png',
+                '../assets/portfolio/comercial/01_CocoBambu/com_01_1.png',
+                '../assets/portfolio/comercial/01_CocoBambu/com_01_2.png',
+                '../assets/portfolio/comercial/01_CocoBambu/com_01_3.png',
+                '../assets/portfolio/comercial/01_CocoBambu/com_01_4.png',
             ]
         }
     ]
