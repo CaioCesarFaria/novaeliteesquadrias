@@ -314,10 +314,14 @@ function renderObraDetails() {
     
     // Encontrar a obra no objeto "obras"
     let obraEncontrada = null;
+    let categoriaObra = '';
     for (const categoria in obras) {
         const obrasCategoria = obras[categoria];
         obraEncontrada = obrasCategoria.find(obra => obra.nome === obraNome);
-        if (obraEncontrada) break; // Se encontrou a obra, sai do loop
+        if (obraEncontrada) {
+            categoriaObra = categoria; // Armazena a categoria (residencial, comercial ou predial)
+            break;
+        }
     }
 
     if (obraEncontrada) {
@@ -326,7 +330,15 @@ function renderObraDetails() {
         
         // Atualizar a descrição da obra
         document.querySelector('.obra_dados_descricao').textContent = obraEncontrada.descricao;
-
+        // Atualiza o tipo da obra no layout
+        const dadosTipoElement = document.querySelector('.dados_tipo');
+        if (categoriaObra === 'residencial') {
+            dadosTipoElement.textContent = 'RESIDENCIAL';
+        } else if (categoriaObra === 'comercial') {
+            dadosTipoElement.textContent = 'COMERCIAL';
+        } else if (categoriaObra === 'predial') {
+            dadosTipoElement.textContent = 'PREDIAL';
+        }
         // Renderizar as imagens da obra
         const imagensContainer = document.querySelector('.portfolio_fotos');
         imagensContainer.innerHTML = ''; // Limpa imagens anteriores
