@@ -212,11 +212,14 @@ function insertCatalogOption() {
         // Adiciona a opção ao topo da lista
         dropdownList.insertBefore(catalogItem, dropdownList.firstChild);
 
-        // Adiciona o evento de clique para exibir todos os carrosseis
         catalogItem.addEventListener('click', function() {
-            document.querySelector('.dropdown-button').textContent = 'Catálogo de Produtos';
+            document.querySelector('.dropdown-button').innerHTML = 'Catálogo de Produtos' + '<img src="./assets/icon_down.png">';
             showAllProducts(); // Exibe todos os carrosseis
+        
+            // Esconde a lista após a seleção
+            document.querySelector('.dropdown-list').style.display = 'none';
         });
+        
     }
 }
 
@@ -279,7 +282,7 @@ function showProduct() {
 // Listener para dropdown
 document.querySelectorAll('.dropdown-list li').forEach(item => {
     item.addEventListener('click', function() {
-        document.querySelector('.dropdown-button').textContent = this.textContent;
+        document.querySelector('.dropdown-button').innerHTML = this.textContent + '<img src="./assets/icon_down.png">';
         document.querySelectorAll('.dropdown-list li').forEach(el => el.classList.remove('selected'));
         this.classList.add('selected');
 
