@@ -5,28 +5,230 @@ const obras = {
         {
             nome: 'Sunflower 01',
             img: '../assets/portfolio/residencial/01_Sunflower_1/res_01_capa.png',
-            descricao: 'Foram feitos na fachada principal porta pivotante em ACM bronze com painéis fixos laterais com perfis acabamento em bronze e vidros incolores. Na parte superior da fachada foi utilizado vidro com junta seca. Todas as demais esquadrias da residência foram feitas com perfis na cor branco brilhante e vidros incolores. Arquitetura Eliane Saliba. Goiânia-GO.',
+            descricao: '',
             imagens: [
                 '../assets/portfolio/residencial/01_Sunflower_1/res_01_capa.png',
                 '../assets/portfolio/residencial/01_Sunflower_1/res_01_1.png',
                 '../assets/portfolio/residencial/01_Sunflower_1/res_01_2.png',
-                
+                '../assets/portfolio/residencial/01_Sunflower_1/res_01_3.png',
+                '../assets/portfolio/residencial/01_Sunflower_1/res_01_4.png',
+                '../assets/portfolio/residencial/01_Sunflower_1/res_01_5.png',
+                '../assets/portfolio/residencial/01_Sunflower_1/res_01_6.png',
+                '../assets/portfolio/residencial/01_Sunflower_1/res_01_7.png',
+                '../assets/portfolio/residencial/01_Sunflower_1/res_01_8.png',
+                '../assets/portfolio/residencial/01_Sunflower_1/res_01_9.png',
+                '../assets/portfolio/residencial/01_Sunflower_1/res_01_10.png',
+                '../assets/portfolio/residencial/01_Sunflower_1/res_01_11.png',
+                '../assets/portfolio/residencial/01_Sunflower_1/res_01_12.png',
+                '../assets/portfolio/residencial/01_Sunflower_1/res_01_13.png',
+                '../assets/portfolio/residencial/01_Sunflower_1/res_01_14.png',
+                '../assets/portfolio/residencial/01_Sunflower_1/res_01_15.png',
+                '../assets/portfolio/residencial/01_Sunflower_1/res_01_16.png',
+                '../assets/portfolio/residencial/01_Sunflower_1/res_01_17.png',
+                '../assets/portfolio/residencial/01_Sunflower_1/res_01_18.png',
+
             ]
         },
         {
-            nome: 'Triannon 01',
-            img: '../assets/portfolio/residencial/01_Sunflower_1/res_01_2.png',
+            nome: 'Grand Triannon 01',
+            img: '../assets/portfolio/residencial/02_GrandTriannon_1/res_02_capa.png',
             descricao: '',
             imagens: [
-                '../assets/portfolio/residencial/02_Triannon_1/triannon_01.png'
+                '../assets/portfolio/residencial/02_GrandTriannon_1/res_02_capa.png',
+                '../assets/portfolio/residencial/02_GrandTriannon_1/res_02_1.png',
+                '../assets/portfolio/residencial/02_GrandTriannon_1/res_02_2.png',
+                '../assets/portfolio/residencial/02_GrandTriannon_1/res_02_3.png',
+                '../assets/portfolio/residencial/02_GrandTriannon_1/res_02_4.png',
+                '../assets/portfolio/residencial/02_GrandTriannon_1/res_02_5.png',
+                '../assets/portfolio/residencial/02_GrandTriannon_1/res_02_6.png',
+                '../assets/portfolio/residencial/02_GrandTriannon_1/res_02_7.png',
+                '../assets/portfolio/residencial/02_GrandTriannon_1/res_02_8.png',
+                '../assets/portfolio/residencial/02_GrandTriannon_1/res_02_9.png',
+                '../assets/portfolio/residencial/02_GrandTriannon_1/res_02_10.png',
+                '../assets/portfolio/residencial/02_GrandTriannon_1/res_02_11.png',
+                '../assets/portfolio/residencial/02_GrandTriannon_1/res_02_12.png',
+                '../assets/portfolio/residencial/02_GrandTriannon_1/res_02_13.png',
+
             ]
         },
         {
-            nome: 'Sunflower 02',
-            img: '../assets/portfolio/residencial/01_Sunflower_1/res_01_2.png',
-            descricao: 'Descrição para a obra Sunflower 02.',
+            nome: 'Grand Triannon 02',
+            img: '../assets/portfolio/residencial/03_GrandTriannon_2/res_03_capa.png',
+            descricao: '',
             imagens: [
-                '../assets/portfolio/residencial/03_Sunflower_2/sunflower_02.png'
+                '../assets/portfolio/residencial/03_GrandTriannon_2/res_03_capa.png',
+                '../assets/portfolio/residencial/03_GrandTriannon_2/res_03_1.png',
+                '../assets/portfolio/residencial/03_GrandTriannon_2/res_03_2.png',
+                '../assets/portfolio/residencial/03_GrandTriannon_2/res_03_3.png',
+                '../assets/portfolio/residencial/03_GrandTriannon_2/res_03_4.png',
+                '../assets/portfolio/residencial/03_GrandTriannon_2/res_03_5.png',
+                '../assets/portfolio/residencial/03_GrandTriannon_2/res_03_6.png',
+                
+
+            ]
+        },
+        
+        {
+            nome: 'Grand Triannon 03',
+            img: '../assets/portfolio/residencial/04_GrandTriannon_3/res_04_capa.png',
+            descricao: '',
+            imagens: [
+                '../assets/portfolio/residencial/04_GrandTriannon_3/res_04_capa.png',
+                '../assets/portfolio/residencial/04_GrandTriannon_3/res_04_1.png',
+                '../assets/portfolio/residencial/04_GrandTriannon_3/res_04_2.png',
+                '../assets/portfolio/residencial/04_GrandTriannon_3/res_04_3.png',
+                '../assets/portfolio/residencial/04_GrandTriannon_3/res_04_4.png',
+
+            ]
+        },
+        {
+            nome: 'Grand Triannon 04',
+            img: '../assets/portfolio/residencial/05_GrandTriannon_4/res_05_capa.png',
+            descricao: '',
+            imagens: [
+                '../assets/portfolio/residencial/05_GrandTriannon_4/res_05_capa.png'
+            ]
+        },
+        {
+            nome: 'Grand Triannon 05',
+            img: '../assets/portfolio/residencial/06_GrandTriannon_5/res_06_capa.png',
+            descricao: '',
+            imagens: [
+                '../assets/portfolio/residencial/06_GrandTriannon_5/res_06_1.png',
+                '../assets/portfolio/residencial/06_GrandTriannon_5/res_06_2.png',
+                '../assets/portfolio/residencial/06_GrandTriannon_5/res_06_3.png',
+                '../assets/portfolio/residencial/06_GrandTriannon_5/res_06_4.png',
+            ]
+        },
+        {
+            nome: 'Grand Triannon 06',
+            img: '../assets/portfolio/residencial/07_GrandTriannon_6/res_07_capa.png',
+            descricao: '',
+            imagens: [
+                '../assets/portfolio/residencial/07_GrandTriannon_6/res_07_capa.png',
+                '../assets/portfolio/residencial/07_GrandTriannon_6/res_07_1.png',
+                '../assets/portfolio/residencial/07_GrandTriannon_6/res_07_2.png',
+                '../assets/portfolio/residencial/07_GrandTriannon_6/res_07_3.png',
+                '../assets/portfolio/residencial/07_GrandTriannon_6/res_07_4.png',
+                '../assets/portfolio/residencial/07_GrandTriannon_6/res_07_5.png',
+                '../assets/portfolio/residencial/07_GrandTriannon_6/res_07_6.png',
+            ]
+        },
+        {
+            nome: 'Anaville 01',
+            img: '../assets/portfolio/residencial/08_Anaville_1/res_08_capa.png',
+            descricao: '',
+            imagens: [
+                '../assets/portfolio/residencial/08_Anaville_1/res_08_capa.png',
+                '../assets/portfolio/residencial/08_Anaville_1/res_08_1.png',
+                '../assets/portfolio/residencial/08_Anaville_1/res_08_2.png',
+            ]
+        },
+        {
+            nome: 'Anaville 02',
+            img: '../assets/portfolio/residencial/09_Anaville_2/res_09_capa.png',
+            descricao: '',
+            imagens: [
+                '../assets/portfolio/residencial/09_Anaville_2/res_09_capa.png',
+                '../assets/portfolio/residencial/09_Anaville_2/res_09_1.png',
+                '../assets/portfolio/residencial/09_Anaville_2/res_09_2.png',
+                '../assets/portfolio/residencial/09_Anaville_2/res_09_3.png',
+                '../assets/portfolio/residencial/09_Anaville_2/res_09_4.png',
+                '../assets/portfolio/residencial/09_Anaville_2/res_09_5.png',
+                '../assets/portfolio/residencial/09_Anaville_2/res_09_6.png',
+                '../assets/portfolio/residencial/09_Anaville_2/res_09_7.png',
+                '../assets/portfolio/residencial/09_Anaville_2/res_09_8.png',
+                '../assets/portfolio/residencial/09_Anaville_2/res_09_9.png',
+                '../assets/portfolio/residencial/09_Anaville_2/res_09_10.png',
+                '../assets/portfolio/residencial/09_Anaville_2/res_09_11.png',
+
+            ]
+        },
+        {
+            nome: 'Anaville 03',
+            img: '../assets/portfolio/residencial/10_Anaville_3/res_10_capa.png',
+            descricao: '',
+            imagens: [
+                '../assets/portfolio/residencial/10_Anaville_3/res_10_capa.png',
+                '../assets/portfolio/residencial/10_Anaville_3/res_10_1.png',
+                '../assets/portfolio/residencial/10_Anaville_3/res_10_2.png',
+                '../assets/portfolio/residencial/10_Anaville_3/res_10_3.png',
+                '../assets/portfolio/residencial/10_Anaville_3/res_10_4.png',
+                '../assets/portfolio/residencial/10_Anaville_3/res_10_5.png',
+                '../assets/portfolio/residencial/10_Anaville_3/res_10_6.png',
+                '../assets/portfolio/residencial/10_Anaville_3/res_10_7.png',
+
+            ]
+        },
+        {
+            nome: 'Grand Triannon 07',
+            img: '../assets/portfolio/residencial/11_GrandTriannon_7/res_11_capa.png',
+            descricao: '',
+            imagens: [
+                '../assets/portfolio/residencial/11_GrandTriannon_7/res_11_capa.png',
+                '../assets/portfolio/residencial/11_GrandTriannon_7/res_11_1.png',
+                '../assets/portfolio/residencial/11_GrandTriannon_7/res_11_2.png',
+                '../assets/portfolio/residencial/11_GrandTriannon_7/res_11_3.png',
+                '../assets/portfolio/residencial/11_GrandTriannon_7/res_11_4.png',
+                '../assets/portfolio/residencial/11_GrandTriannon_7/res_11_5.png',
+                '../assets/portfolio/residencial/11_GrandTriannon_7/res_11_6.png',
+                '../assets/portfolio/residencial/11_GrandTriannon_7/res_11_7.png',
+
+            ]
+        },
+        {
+            nome: 'Alphaville 01',
+            img: '../assets/portfolio/residencial/12_Alphaville_1/res_12_capa.png',
+            descricao: '',
+            imagens: [
+                '../assets/portfolio/residencial/12_Alphaville_1/res_12_capa.png',
+                '../assets/portfolio/residencial/12_Alphaville_1/res_12_1.png',
+                '../assets/portfolio/residencial/12_Alphaville_1/res_12_2.png',
+                '../assets/portfolio/residencial/12_Alphaville_1/res_12_3.png',
+                '../assets/portfolio/residencial/12_Alphaville_1/res_12_4.png',
+                '../assets/portfolio/residencial/12_Alphaville_1/res_12_5.png',
+                '../assets/portfolio/residencial/12_Alphaville_1/res_12_6.png',
+                '../assets/portfolio/residencial/12_Alphaville_1/res_12_7.png',
+                '../assets/portfolio/residencial/12_Alphaville_1/res_12_8.png',
+                '../assets/portfolio/residencial/12_Alphaville_1/res_12_9.png',
+                '../assets/portfolio/residencial/12_Alphaville_1/res_12_10.png',
+                '../assets/portfolio/residencial/12_Alphaville_1/res_12_11.png',
+
+
+            ]
+        },
+        {
+            nome: 'Terras Alphaville 01',
+            img: '../assets/portfolio/residencial/13_TerrasAlphaville_1/res_13_capa.png',
+            descricao: '',
+            imagens: [
+                '../assets/portfolio/residencial/13_TerrasAlphaville_1/res_13_capa.png',
+                '../assets/portfolio/residencial/13_TerrasAlphaville_1/res_13_1.png',
+                '../assets/portfolio/residencial/13_TerrasAlphaville_1/res_13_2.png',
+                '../assets/portfolio/residencial/13_TerrasAlphaville_1/res_13_3.png',
+                '../assets/portfolio/residencial/13_TerrasAlphaville_1/res_13_4.png',
+                '../assets/portfolio/residencial/13_TerrasAlphaville_1/res_13_5.png',
+                '../assets/portfolio/residencial/13_TerrasAlphaville_1/res_13_6.png',
+                '../assets/portfolio/residencial/13_TerrasAlphaville_1/res_13_7.png',
+                '../assets/portfolio/residencial/13_TerrasAlphaville_1/res_13_8.png',
+
+                
+
+
+            ]
+        },
+        {
+            nome: 'Terras Alphaville 02',
+            img: '../assets/portfolio/residencial/14_TerrasAlphaville_2/res_14_capa.png',
+            descricao: '',
+            imagens: [
+                '../assets/portfolio/residencial/14_TerrasAlphaville_2/res_14_capa.png',
+                '../assets/portfolio/residencial/14_TerrasAlphaville_2/res_14_1.png',
+                '../assets/portfolio/residencial/14_TerrasAlphaville_2/res_14_2.png',
+                '../assets/portfolio/residencial/14_TerrasAlphaville_2/res_14_3.png',
+                
+
+
             ]
         },
         // Continue para todas as obras...
@@ -45,7 +247,7 @@ const obras = {
     comercial: [
         {
             nome: 'Coco Bambu',
-            img: 'link_da_imagem7',
+            img: '../assets/portfolio/comercial/Coco_bambu/Coco_capa.png',
             descricao: 'Descrição para a obra Coco Bambu.',
             imagens: [
                 'link_da_imagem7',

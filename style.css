@@ -4325,10 +4325,44 @@ body {
     }
 
 
-    /* ================================ CSS DAS OBRAS PAGINA PROJETO */
+    /* ================================ CSS DAS OBRAS PAGINA PROJETO ===  */
 
-    .portfolio_fotos {
+    .obra_dados {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         
+    }
+    .linha_obra_dados {
+        height: 1px;
+        width: 20vw;
+        background-color: var(--azul-principal);
+    }
+    .dados_tipo {
+        font-family: var(--fonte-principal);
+        color: var(--azul-principal);
+        font-size: 26px;
+        font-weight: 300;
+    }
+    .linha_depois_obra_dados {
+        height: 1px;
+        width: 60vw;
+        background-color: var(--azul-principal);
+    }
+    .obra_dados_title {
+        font-family: var(--fonte-principal);
+        color: var(--azul-principal);
+        font-size: 22px;
+    }
+    .portfolio_fotos {
+        display: flex;
+        flex-wrap: wrap;
+        align-items:center;
+        row-gap: 1rem;
+        justify-content: space-evenly;
+    }
+    .portfolio_fotos img {
+        width: 30vw;
     }
 
 }
