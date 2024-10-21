@@ -74,7 +74,7 @@ const products = {
         ],
         description: '<strong>Portas Pivotantes</strong> <br>As portas pivotantes são ideais para entradas principais, oferecendo um design elegante e imponente. Com um eixo vertical de rotação, permitem uma abertura ampla e marcante, combinando estética moderna com robustez. Fabricadas em alumínio, garantem durabilidade e leveza.',
         features: [
-            { icon: '/assets/droplist/icon_piv_1.png', text: 'Imponente' },
+            { icon: '/assets/droplist/icon_piv_1.png', text: 'Chamativo' },
             { icon: '/assets/droplist/icon_piv_2.png', text: 'Robusta' },
             { icon: '/assets/droplist/icon_piv_3.png', text: 'Abertura Suave' }
         ]
