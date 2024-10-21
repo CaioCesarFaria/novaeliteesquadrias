@@ -263,10 +263,24 @@ const obras = {
     ]
 };
 
-
+// Carregar automaticamente as obras residenciais ao entrar na página
+document.addEventListener('DOMContentLoaded', function () {
+    // Ao carregar a página, já seleciona o 'RESIDENCIAL'
+    showPortfolio('residencial');
+});
 // Função para exibir o portfólio de acordo com a categoria
 // Função para exibir o portfólio de acordo com a categoria
 function showPortfolio(tipo) {
+
+    // Remove a classe 'selecionado' de todos os itens
+    document.getElementById('residencial').classList.remove('selecionado');
+    document.getElementById('predial').classList.remove('selecionado');
+    document.getElementById('comercial').classList.remove('selecionado');
+
+    // Adiciona a classe 'selecionado' ao item clicado
+    document.getElementById(tipo).classList.add('selecionado');
+
+    
     const container = document.getElementById('portfolio_obras');
     container.innerHTML = ''; // Limpa o conteúdo anterior
 
@@ -293,10 +307,7 @@ function showPortfolio(tipo) {
 
 
 
-// Carregar automaticamente as obras residenciais ao entrar na página
-window.onload = function() {
-    showPortfolio('residencial');
-};
+
 
 
 // CÓDIGO DE CADA OBRA CADASTRADA 

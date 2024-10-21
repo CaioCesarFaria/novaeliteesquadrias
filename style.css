@@ -1042,6 +1042,20 @@ body {
         text-align: center;
         padding-top: 10px;
     }
+    .selecionado {
+        opacity: 0.5; /* Deixa opaco */
+    }
+
+
+    .swiper-button-next-inicio{
+        display: none;
+    }
+    .swiper-button-prev-inicio {
+        display: none;
+    }
+    .swiper-pagination, .unique-swiper-pagination{
+        display: none;
+    }
 
 }
 
@@ -2096,6 +2110,15 @@ body {
         font-size: 26px;
         padding: 0.2rem 0.5rem;
     }
+    .selecionado {
+        opacity: 0.5; /* Deixa opaco */
+    }
+    .swiper-button-next-inicio{
+        display: none;
+    }
+    .swiper-button-prev-inicio {
+        display: none;
+    }
 }
 
 /* TODO ======== TABLET / 769 PX  ATÉ 1023PX ============================= */
@@ -2966,6 +2989,15 @@ body {
         font-size: 26px;
         padding: 0.2rem 0.5rem;
     }
+    .selecionado {
+        opacity: 0.5; /* Deixa opaco */
+    }
+    .swiper-button-next-inicio{
+        display: none;
+    }
+    .swiper-button-prev-inicio {
+        display: none;
+    }
 }
 
 /* TODO ======== NOTEBOOK / 1024 PX  ATÉ 1200PX ============================ */
@@ -3833,6 +3865,15 @@ body {
         font-family: var(--fonte-principal);
         font-size: 26px;
         padding: 0.2rem 0.5rem;
+    }
+    .selecionado {
+        opacity: 0.5; /* Deixa opaco */
+    }
+    .swiper-button-next-inicio{
+        display: none;
+    }
+    .swiper-button-prev-inicio {
+        display: none;
     }
 
 
@@ -4791,6 +4832,9 @@ body {
         font-family: var(--fonte-principal);
         font-size: 28px;
         padding: 0.2rem 0.5rem;
+    }
+    .selecionado {
+        opacity: 0.5; /* Deixa opaco */
     }
     
     

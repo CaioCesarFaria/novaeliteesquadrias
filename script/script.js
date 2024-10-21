@@ -69,10 +69,8 @@ const products = {
     pivotantes: {
         
         images: [
-            '/assets/droplist/pivotante_1.png',
-            '/assets/droplist/pivotante_2.png',
-            '/assets/droplist/pivotante_3.png',
-            '/assets/droplist/pivotante_4.png'
+            '/assets/carrossel/prod_portapivotante.png',
+            
         ],
         description: '<strong>Portas Pivotantes</strong> <br>As portas pivotantes são ideais para entradas principais, oferecendo um design elegante e imponente. Com um eixo vertical de rotação, permitem uma abertura ampla e marcante, combinando estética moderna com robustez. Fabricadas em alumínio, garantem durabilidade e leveza.',
         features: [
@@ -84,10 +82,8 @@ const products = {
     janelasPortasDeCorrer: {
         
         images: [
-            '/assets/droplist/correr_1.png',
-            '/assets/droplist/correr_2.png',
-            '/assets/droplist/correr_3.png',
-            '/assets/droplist/correr_4.png'
+            '/assets/carrossel/prod_janelaseportasdecorrer.svg',
+            
         ],
         description: '<strong>Portas e Janelas de correr</strong> <br>Portas e janelas de correr são práticas para otimizar espaços. Suas folhas deslizantes garantem abertura sem ocupar área útil, oferecendo ampla entrada de luz. Esquadrias de alumínio proporcionam resistência e leveza.',
         features: [
@@ -98,9 +94,8 @@ const products = {
     },
     persianas: {
         images: [
-            '/assets/droplist/persiana_1.png',
-            '/assets/droplist/persiana_2.png',
-            '/assets/droplist/persiana_3.png',
+            '/assets/carrossel/prod_persianasintegradas.png',
+            
             
         ],
         description: '<strong>Persianas Integradas</strong> <br>Persianas integradas controlam luz e ventilação com praticidade. Integradas às esquadrias de alumínio, otimizam o isolamento térmico e acústico. Com opções manuais ou motorizadas, oferecem funcionalidade e estética limpa.',
@@ -112,10 +107,8 @@ const products = {
     },
     maximAr: {
         images: [
-            '/assets/droplist/maximAr_1.png',
-            '/assets/droplist/maximAr_2.png',
-            '/assets/droplist/maximAr_3.png',
-            '/assets/droplist/maximAr_4.png'
+            '/assets/carrossel/prod_maximar.png',
+            
         ],
         description: '<strong>Janelas Maxim-ar</strong> <br>As janelas Maxim-ar oferecem ventilação eficiente com abertura parcial. Quando combinadas a um painel fixo, proporcionam um visual contínuo, alinhando-se discretamente quando fechadas. São ideais para garantir a aeração sem comprometer o design da fachada.',
         features: [
@@ -126,10 +119,8 @@ const products = {
     },
     fachadasPeleDeVidro: {
         images: [
-            '/assets/droplist/fachadas_1.png',
-            '/assets/droplist/fachadas_2.png',
-            '/assets/droplist/fachadas_3.png',
-            '/assets/droplist/fachadas_4.png'
+            '/assets/carrossel/prod_peledevidro.png',
+            
         ],
         description: '<strong>Fachadas em Pele de Vidro</strong> <br>As fachadas pele de vidro são conhecidas por seu design moderno e elegante, com grandes superfícies envidraçadas que proporcionam ampla entrada de luz natural. Uma das principais características é o fato de os perfis de alumínio ficarem ocultos, resultando em um visual limpo e sofisticado.',
         features: [
@@ -140,10 +131,8 @@ const products = {
     },
     portasdeGiro: {
         images: [
-            '/assets/droplist/fachadas_1.png',
-            '/assets/droplist/fachadas_2.png',
-            '/assets/droplist/fachadas_3.png',
-            '/assets/droplist/fachadas_4.png'
+            '/assets/carrossel/prod_portadegiro.png',
+            
         ],
         description: '<strong>Porta de Giro</strong> <br>Portas de giro são versáteis e tradicionais, com abertura lateral em dobradiça. Feitas de alumínio, garantem resistência e são ideais para ambientes internos e externos, proporcionando uma estética moderna e funcional.',
         features: [
@@ -154,10 +143,8 @@ const products = {
     },
     paineisFixos: {
         images: [
-            '/assets/droplist/fachadas_1.png',
-            '/assets/droplist/fachadas_2.png',
-            '/assets/droplist/fachadas_3.png',
-            '/assets/droplist/fachadas_4.png'
+            '/assets/carrossel/prod_fixos.svg',
+            
         ],
         description: '<strong>Painéis Fixos</strong> <br>Painéis fixos em alumínio são ideais para quem busca iluminação natural sem a necessidade de abertura. Com design minimalista, são resistentes e duráveis, oferecendo estética moderna em fachadas e interiores.',
         features: [
@@ -168,10 +155,8 @@ const products = {
     },
     guardaCorpos: {
         images: [
-            '/assets/droplist/fachadas_1.png',
-            '/assets/droplist/fachadas_2.png',
-            '/assets/droplist/fachadas_3.png',
-            '/assets/droplist/fachadas_4.png'
+            '/assets/carrossel/prod_guardacorpo.png',
+            
         ],
         description: '<strong>Guarda-corpos</strong> <br>Guarda-corpos em alumínio combinam segurança e design. Ideais para varandas e escadas, são resistentes à corrosão e podem ser combinados com vidro, oferecendo leveza e transparência sem comprometer a segurança.',
         features: [
