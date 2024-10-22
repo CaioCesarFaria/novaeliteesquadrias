@@ -286,13 +286,15 @@ function showPortfolio(tipo) {
 
     obras[tipo].forEach(obra => {
         const obraDiv = document.createElement('div');
-        
+        obraDiv.classList.add('obra-item');
         // Cria o link que envolverá a imagem
         const obraLink = document.createElement('a');
         obraLink.href = `projetos.html?obra=${encodeURIComponent(obra.nome)}`;
 
         const obraImg = document.createElement('img');
         obraImg.src = obra.img;
+
+        
         obraLink.appendChild(obraImg); // Coloca a imagem dentro do link
 
         obraDiv.appendChild(obraLink); // Adiciona o link ao div
@@ -362,6 +364,7 @@ function renderObraDetails() {
         console.error('Obra não encontrada!');
     }
 }
+
 
 // Carregar os detalhes da obra ao carregar a página
 window.onload = renderObraDetails;

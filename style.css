@@ -4852,6 +4852,46 @@ body {
         opacity: 1; /* Deixa opaco */
     }
     
+
+    /* ======================== MODAL MODAL  */
+    /* Modal */
+.modal {
+    display: none; /* Esconde o modal por padrão */
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9); /* Fundo preto opaco */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Imagem dentro do modal */
+.modal-content {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+/* Botão de fechar (X) */
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
     
 
 }
