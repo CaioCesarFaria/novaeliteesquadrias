@@ -757,6 +757,7 @@ body {
         align-items: center;
         justify-content: center;
         display: flex;
+        opacity: 0.5;
     }
 
     .portfolio_tipo_title {
@@ -778,6 +779,7 @@ body {
         align-items: center;
         justify-content: center;
         display: flex;
+        opacity: 0.5;
     }
 
     .portfolio_predial {
@@ -788,6 +790,7 @@ body {
         align-items: center;
         justify-content: center;
         display: flex;
+        opacity: 0.5;
     }
 
     .portfolio_obras {
@@ -1045,7 +1048,7 @@ body {
         padding-top: 10px;
     }
     .selecionado {
-        opacity: 0.5; /* Deixa opaco */
+        opacity: 1; /* Deixa opaco */
     }
 
 
@@ -1834,6 +1837,7 @@ body {
         align-items: center;
         justify-content: center;
         display: flex;
+        opacity: 0.5;
     }
 
     .portfolio_tipo_title {
@@ -1855,6 +1859,7 @@ body {
         align-items: center;
         justify-content: center;
         display: flex;
+        opacity: 0.5;
     }
 
     .portfolio_predial {
@@ -1865,6 +1870,7 @@ body {
         align-items: center;
         justify-content: center;
         display: flex;
+        opacity: 0.5;
     }
 
     /* DROPLIST CUSTOMIZADAS - LISTA DE SELEÇÃO DE PRODUTOS */
@@ -2113,7 +2119,7 @@ body {
         padding: 0.2rem 0.5rem;
     }
     .selecionado {
-        opacity: 0.5; /* Deixa opaco */
+        opacity: 1; /* Deixa opaco */
     }
     .swiper-button-next-inicio{
         display: none;
@@ -2726,6 +2732,7 @@ body {
         align-items: center;
         justify-content: center;
         display: flex;
+        opacity: 0.5;
     }
 
     .portfolio_tipo_title {
@@ -2747,6 +2754,7 @@ body {
         align-items: center;
         justify-content: center;
         display: flex;
+        opacity: 0.5;
     }
 
     .portfolio_predial {
@@ -2757,6 +2765,7 @@ body {
         align-items: center;
         justify-content: center;
         display: flex;
+        opacity: 0.5;
     }
 
     /* DROPLIST CUSTOMIZADAS - LISTA DE SELEÇÃO DE PRODUTOS */
@@ -2992,7 +3001,7 @@ body {
         padding: 0.2rem 0.5rem;
     }
     .selecionado {
-        opacity: 0.5; /* Deixa opaco */
+        opacity: 1; /* Deixa opaco */
     }
     .swiper-button-next-inicio{
         display: none;
@@ -3603,6 +3612,7 @@ body {
         align-items: center;
         justify-content: center;
         display: flex;
+        opacity: 0.5;
     }
 
     .portfolio_tipo_title {
@@ -3624,6 +3634,7 @@ body {
         align-items: center;
         justify-content: center;
         display: flex;
+        opacity: 0.5;
     }
 
     .portfolio_predial {
@@ -3634,6 +3645,7 @@ body {
         align-items: center;
         justify-content: center;
         display: flex;
+        opacity: 0.5;
     }
 
     /* DROPLIST CUSTOMIZADAS - LISTA DE SELEÇÃO DE PRODUTOS */
@@ -3869,7 +3881,7 @@ body {
         padding: 0.2rem 0.5rem;
     }
     .selecionado {
-        opacity: 0.5; /* Deixa opaco */
+        opacity: 1; /* Deixa opaco */
     }
     .swiper-button-next-inicio{
         display: none;
