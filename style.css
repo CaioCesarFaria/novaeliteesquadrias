@@ -926,9 +926,7 @@ body {
         margin: 0;
         background-color: var(--azul-principal);
         cursor: pointer;
-
-
-
+        padding: 0.7rem 0 0.7rem 2.5rem;
 
     }
 
@@ -1902,7 +1900,7 @@ body {
         margin: 0;
         background-color: var(--azul-principal);
         cursor: pointer;
-
+        padding: 0.7rem 0 0.7rem 2.5rem;
 
 
 
@@ -2795,7 +2793,7 @@ body {
         margin: 0;
         background-color: var(--azul-principal);
         cursor: pointer;
-
+        padding: 0.7rem 0 0.7rem 2.5rem;
 
 
     }
@@ -3675,7 +3673,7 @@ body {
         margin: 0;
         background-color: var(--azul-principal);
         cursor: pointer;
-
+        padding: 0.7rem 0 0.7rem 2.5rem;
 
 
     }
@@ -4528,7 +4526,7 @@ body {
         margin: 0;
         background-color: var(--azul-principal);
         cursor: pointer;
-
+        padding: 0.7rem 0 0.7rem 2.5rem;
 
     }
 
