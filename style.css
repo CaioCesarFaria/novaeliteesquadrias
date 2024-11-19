@@ -1059,6 +1059,32 @@ body {
     .swiper-pagination, .unique-swiper-pagination{
         display: none;
     }
+    /* BOTÃO FLUTUANTE */
+.container_download {
+    display: flex;
+    justify-content: flex-end;
+}
+.botao_download {
+    display: flex;
+    align-items: center;
+    border: 9px solid #b7e1ef;
+    border-radius: 16px;
+    text-decoration: none;
+    column-gap: 1rem;
+    padding: 0rem 0.6rem;
+    width: max-content;
+    margin-right: 1rem;
+    
+}
+.down_icon {
+    width: 30px;
+}
+.down_text {
+    font-family: var(--fonte-principal);
+    color: var(--azul-principal);
+    font-weight: bold;
+    font-size: 12px;
+}
 
 }
 
@@ -2125,6 +2151,32 @@ body {
     .swiper-button-prev-inicio {
         display: none;
     }
+    /* BOTÃO FLUTUANTE */
+.container_download {
+    display: flex;
+    justify-content: flex-end;
+}
+.botao_download {
+    display: flex;
+    align-items: center;
+    border: 9px solid #b7e1ef;
+    border-radius: 16px;
+    text-decoration: none;
+    column-gap: 1rem;
+    padding: 0rem 0.6rem;
+    width: max-content;
+    margin-right: 2rem;
+    
+}
+.down_icon {
+    width: 50px;
+}
+.down_text {
+    font-family: var(--fonte-principal);
+    color: var(--azul-principal);
+    font-weight: bold;
+    font-size: 14px;
+}
 }
 
 /* TODO ======== TABLET / 769 PX  ATÉ 1023PX ============================= */
@@ -3007,6 +3059,32 @@ body {
     .swiper-button-prev-inicio {
         display: none;
     }
+    /* BOTÃO FLUTUANTE */
+.container_download {
+    display: flex;
+    justify-content: flex-end;
+}
+.botao_download {
+    display: flex;
+    align-items: center;
+    border: 12px solid #b7e1ef;
+    border-radius: 16px;
+    text-decoration: none;
+    column-gap: 1rem;
+    padding: 0rem 0.6rem;
+    width: max-content;
+    margin-right: 2rem;
+    
+}
+.down_icon {
+    width: 50px;
+}
+.down_text {
+    font-family: var(--fonte-principal);
+    color: var(--azul-principal);
+    font-weight: bold;
+    font-size: 16px;
+}
 }
 
 /* TODO ======== NOTEBOOK / 1024 PX  ATÉ 1200PX ============================ */
@@ -3887,7 +3965,29 @@ body {
     .swiper-button-prev-inicio {
         display: none;
     }
-
+    /* BOTÃO FLUTUANTE */
+.container_download {
+    display: flex;
+    justify-content: flex-end;
+}
+.botao_download {
+    display: flex;
+    align-items: center;
+    border: 12px solid #b7e1ef;
+    border-radius: 16px;
+    text-decoration: none;
+    column-gap: 1rem;
+    padding: 0.2rem 1rem;
+    width: max-content;
+    margin-right: 2rem;
+    
+}
+.down_text {
+    font-family: var(--fonte-principal);
+    color: var(--azul-principal);
+    font-weight: bold;
+    font-size: 18px;
+}
 
 }
 
@@ -4892,7 +4992,29 @@ body {
     cursor: pointer;
 }
 
+/* BOTÃO FLUTUANTE */
+.container_download {
+    display: flex;
+    justify-content: flex-end;
+}
+.botao_download {
+    display: flex;
+    align-items: center;
+    border: 12px solid #b7e1ef;
+    border-radius: 16px;
+    text-decoration: none;
+    column-gap: 1rem;
+    padding: 0.2rem 1rem;
+    width: max-content;
+    margin-right: 2rem;
     
+}
+.down_text {
+    font-family: var(--fonte-principal);
+    color: var(--azul-principal);
+    font-weight: bold;
+    font-size: 18px;
+}
 
 }
 @media screen and (min-width: 1501px){
